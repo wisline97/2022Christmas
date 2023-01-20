@@ -1,0 +1,61 @@
+[2512월2022 00:48:49.444] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--gameDir, ., --launchTarget, fmlserver, --fml.forgeVersion, 35.1.4, --fml.mcpVersion, 20201102.104115, --fml.mcVersion, 1.16.4, --fml.forgeGroup, net.minecraftforge]
+[2512월2022 00:48:49.460] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 8.0.6+85+master.325de55 starting: java version 1.8.0_311 by Oracle Corporation
+[2512월2022 00:48:51.955] [main/INFO] [net.minecraftforge.fml.loading.FixSSL/CORE]: Added Lets Encrypt root certificates as additional trust
+[2512월2022 00:48:52.096] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.2 Source=file:/C:/Users/jijii/Desktop/2022_christmas/libraries/org/spongepowered/mixin/0.8.2/mixin-0.8.2.jar Service=ModLauncher Env=SERVER
+[2512월2022 00:48:53.402] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'fmlserver' with arguments [--gameDir, .]
+[2512월2022 00:49:01.636] [modloading-worker-2/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 35.1.4, for MC 1.16.4 with MCP 20201102.104115
+[2512월2022 00:49:01.642] [modloading-worker-2/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v35.1.4 Initialized
+[2512월2022 00:49:02.105] [modloading-worker-4/INFO] [com.sk89q.worldedit.forge.ForgeWorldEdit/]: WorldEdit for Forge (version 7.2.5+57d5ac9) is loaded
+[2512월2022 00:49:02.122] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
+[2512월2022 00:49:04.095] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[2512월2022 00:49:04.925] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: UP_TO_DATE Current: 35.1.4 Target: null
+[2512월2022 00:49:04.926] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [joshxmas] Starting version check at https://criobite.com/christmas-mod/versions.json
+[2512월2022 00:49:05.003] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[2512월2022 00:49:05.006] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[2512월2022 00:49:05.008] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[2512월2022 00:49:05.011] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[2512월2022 00:49:05.014] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[2512월2022 00:49:05.028] [main/INFO] [net.minecraft.resources.SimpleReloadableResourceManager/]: Reloading ResourceManager: Default, forge-1.16.4-35.1.4-universal.jar, worldedit-mod-7.2.5-dist.jar, joshxmas-1.16.4-1.0.1.jar
+[2512월2022 00:49:05.720] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [joshxmas] Found status: UP_TO_DATE Current: 1.0.1 Target: null
+[2512월2022 00:49:06.364] [Worker-Main-11/INFO] [net.minecraft.item.crafting.RecipeManager/]: Loaded 7 recipes
+[2512월2022 00:49:07.452] [Worker-Main-11/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 927 advancements
+[2512월2022 00:49:15.775] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.16.4
+[2512월2022 00:49:15.779] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[2512월2022 00:49:15.781] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[2512월2022 00:49:15.785] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[2512월2022 00:49:15.915] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[2512월2022 00:49:15.927] [Server thread/INFO] [net.minecraft.network.NetworkSystem/]: Using default channel type
+[2512월2022 00:49:17.338] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[2512월2022 00:49:17.519] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[2512월2022 00:49:18.174] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[2512월2022 00:49:18.175] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[2512월2022 00:49:18.671] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Time elapsed: 1150 ms
+[2512월2022 00:49:18.674] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (1.369s)! For help, type "help"
+[2512월2022 00:49:19.328] [Server thread/INFO] [com.sk89q.worldedit.extension.platform.PlatformManager/]: Got request to register class com.sk89q.worldedit.forge.ForgePlatform with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@4541d9f2]
+[2512월2022 00:49:19.910] [Server thread/INFO] [com.sk89q.worldedit.extension.platform.PlatformCommandManager/]: Registering commands with com.sk89q.worldedit.forge.ForgePlatform
+[2512월2022 00:51:49.510] [User Authenticator #1/INFO] [net.minecraft.network.login.ServerLoginNetHandler/]: UUID of player ssuee1217 is 46b0a61e-1836-4939-b517-1943fda53f87
+[2512월2022 00:51:51.956] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.advancements.PlayerAdvancements@331bca4
+[2512월2022 00:51:51.977] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: ssuee1217[/39.115.114.85:50094] logged in with entity id 622 at (1687.594519580329, 20.0, -332.5002193486635)
+[2512월2022 00:51:52.017] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: ssuee1217 joined the game
+[2512월2022 02:02:18.401] [User Authenticator #2/INFO] [net.minecraft.network.login.ServerLoginNetHandler/]: UUID of player fairy_Vv is 26c1cca6-e050-4394-8f46-b1a7f5b042e8
+[2512월2022 02:02:19.715] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.advancements.PlayerAdvancements@4a925212
+[2512월2022 02:02:19.725] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: fairy_Vv[/222.98.108.78:61320] logged in with entity id 810 at (1773.614906252653, 67.4229304360186, -294.6705088957478)
+[2512월2022 02:02:19.734] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: fairy_Vv joined the game
+[2512월2022 02:13:19.199] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: ssuee1217 lost connection: Disconnected
+[2512월2022 02:13:19.200] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: ssuee1217 left the game
+[2512월2022 02:13:28.348] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: fairy_Vv lost connection: Disconnected
+[2512월2022 02:13:28.348] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: fairy_Vv left the game
+[2512월2022 02:31:55.293] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Stopping the server
+[2512월2022 02:31:55.343] [Server thread/INFO] [com.sk89q.worldedit.extension.platform.PlatformManager/]: Unregistering com.sk89q.worldedit.forge.ForgePlatform from WorldEdit
+[2512월2022 02:31:55.349] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[2512월2022 02:31:55.350] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[2512월2022 02:31:55.352] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[2512월2022 02:31:55.354] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[2512월2022 02:31:55.497] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[2512월2022 02:31:55.497] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[2512월2022 02:31:55.501] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[2512월2022 02:31:55.502] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[2512월2022 02:31:55.505] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[2512월2022 02:31:55.526] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[2512월2022 02:31:55.530] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[2512월2022 02:31:55.531] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved

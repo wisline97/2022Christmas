@@ -1,0 +1,1182 @@
+[2512월2022 00:48:49.444] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--gameDir, ., --launchTarget, fmlserver, --fml.forgeVersion, 35.1.4, --fml.mcpVersion, 20201102.104115, --fml.mcVersion, 1.16.4, --fml.forgeGroup, net.minecraftforge]
+[2512월2022 00:48:49.460] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 8.0.6+85+master.325de55 starting: java version 1.8.0_311 by Oracle Corporation
+[2512월2022 00:48:49.475] [main/DEBUG] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Found launch services [minecraft,testharness,fmlclient,fmlserver]
+[2512월2022 00:48:49.491] [main/DEBUG] [cpw.mods.modlauncher.NameMappingServiceHandler/MODLAUNCHER]: Found naming services : []
+[2512월2022 00:48:49.616] [main/DEBUG] [cpw.mods.modlauncher.LaunchPluginHandler/MODLAUNCHER]: Found launch plugins: [mixin,eventbus,object_holder_definalize,runtime_enum_extender,accesstransformer,capability_inject_definalize,runtimedistcleaner]
+[2512월2022 00:48:49.631] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Discovering transformation services
+[2512월2022 00:48:49.663] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Found additional transformation services from discovery services: []
+[2512월2022 00:48:49.678] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Found transformer services : [mixin,fml]
+[2512월2022 00:48:49.678] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Transformation services loading
+[2512월2022 00:48:49.678] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loading service mixin
+[2512월2022 00:48:49.678] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loaded service mixin
+[2512월2022 00:48:49.678] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loading service fml
+[2512월2022 00:48:49.678] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/]: Injecting tracing printstreams for STDOUT/STDERR.
+[2512월2022 00:48:49.694] [main/DEBUG] [net.minecraftforge.fml.loading.LauncherVersion/CORE]: Found FMLLauncher version 35.1
+[2512월2022 00:48:49.694] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: FML 35.1 loading
+[2512월2022 00:48:49.694] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: FML found ModLauncher version : 8.0.6+85+master.325de55
+[2512월2022 00:48:49.694] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Initializing modjar URL handler
+[2512월2022 00:48:49.694] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: FML found AccessTransformer version : 2.2.0+57+master.16c1bdb
+[2512월2022 00:48:49.694] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: FML found EventBus version : 3.0.5+64+master.ec454d4
+[2512월2022 00:48:49.694] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Found Runtime Dist Cleaner
+[2512월2022 00:48:49.694] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: FML found CoreMod version : 3.0.0+9+master.3817658
+[2512월2022 00:48:49.694] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Found ForgeSPI package implementation version 3.2.0+13+master.8ddb2cc
+[2512월2022 00:48:49.694] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Found ForgeSPI package specification 3
+[2512월2022 00:48:51.955] [main/INFO] [net.minecraftforge.fml.loading.FixSSL/CORE]: Added Lets Encrypt root certificates as additional trust
+[2512월2022 00:48:51.955] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loaded service fml
+[2512월2022 00:48:51.987] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Configuring option handling for services
+[2512월2022 00:48:52.036] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Transformation services initializing
+[2512월2022 00:48:52.037] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initializing transformation service mixin
+[2512월2022 00:48:52.047] [main/DEBUG] [mixin/]: Mixin bootstrap service org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapperBootstrap is not available: LaunchWrapper is not available
+[2512월2022 00:48:52.049] [main/DEBUG] [mixin/]: MixinService [ModLauncher] was successfully booted in sun.misc.Launcher$AppClassLoader@24d46ca6
+[2512월2022 00:48:52.096] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.2 Source=file:/C:/Users/jijii/Desktop/2022_christmas/libraries/org/spongepowered/mixin/0.8.2/mixin-0.8.2.jar Service=ModLauncher Env=SERVER
+[2512월2022 00:48:52.096] [main/DEBUG] [mixin/]: Initialising Mixin Platform Manager
+[2512월2022 00:48:52.096] [main/DEBUG] [mixin/]: Adding mixin platform agents for container ModLauncher Root Container(4f56a0a2)
+[2512월2022 00:48:52.096] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for ModLauncher Root Container(4f56a0a2)
+[2512월2022 00:48:52.096] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container ModLauncher Root Container(4f56a0a2)
+[2512월2022 00:48:52.096] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for ModLauncher Root Container(4f56a0a2)
+[2512월2022 00:48:52.096] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container ModLauncher Root Container(4f56a0a2)
+[2512월2022 00:48:52.096] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initialized transformation service mixin
+[2512월2022 00:48:52.096] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initializing transformation service fml
+[2512월2022 00:48:52.096] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Setting up basic FML game directories
+[2512월2022 00:48:52.096] [main/DEBUG] [net.minecraftforge.fml.loading.FileUtils/CORE]: Found existing GAMEDIR directory : C:\Users\jijii\Desktop\2022_christmas
+[2512월2022 00:48:52.096] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path GAMEDIR is C:\Users\jijii\Desktop\2022_christmas
+[2512월2022 00:48:52.112] [main/DEBUG] [net.minecraftforge.fml.loading.FileUtils/CORE]: Found existing MODSDIR directory : C:\Users\jijii\Desktop\2022_christmas\mods
+[2512월2022 00:48:52.112] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path MODSDIR is C:\Users\jijii\Desktop\2022_christmas\mods
+[2512월2022 00:48:52.112] [main/DEBUG] [net.minecraftforge.fml.loading.FileUtils/CORE]: Found existing CONFIGDIR directory : C:\Users\jijii\Desktop\2022_christmas\config
+[2512월2022 00:48:52.112] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path CONFIGDIR is C:\Users\jijii\Desktop\2022_christmas\config
+[2512월2022 00:48:52.112] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path FMLCONFIG is C:\Users\jijii\Desktop\2022_christmas\config\fml.toml
+[2512월2022 00:48:52.112] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Loading configuration
+[2512월2022 00:48:52.205] [main/DEBUG] [net.minecraftforge.fml.loading.FileUtils/CORE]: Found existing default config directory directory : C:\Users\jijii\Desktop\2022_christmas\defaultconfigs
+[2512월2022 00:48:52.205] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Preparing ModFile
+[2512월2022 00:48:52.221] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Preparing launch handler
+[2512월2022 00:48:52.221] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Using fmlserver as launch service
+[2512월2022 00:48:52.237] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Received command line version data  : MC Version: '1.16.4' MCP Version: '20201102.104115' Forge Version: '35.1.4' Forge group: 'net.minecraftforge'
+[2512월2022 00:48:52.237] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Found JAR asm at path C:\Users\jijii\Desktop\2022_christmas\libraries\org\ow2\asm\asm\7.2\asm-7.2.jar
+[2512월2022 00:48:52.237] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Found probable library path C:\Users\jijii\Desktop\2022_christmas\libraries
+[2512월2022 00:48:52.237] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Found forge path C:\Users\jijii\Desktop\2022_christmas\libraries\net\minecraftforge\forge\1.16.4-35.1.4\forge-1.16.4-35.1.4-universal.jar is present
+[2512월2022 00:48:52.237] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: SRG MC at C:\Users\jijii\Desktop\2022_christmas\libraries\net\minecraft\server\1.16.4-20201102.104115\server-1.16.4-20201102.104115-srg.jar is present
+[2512월2022 00:48:52.237] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: MC Extras at C:\Users\jijii\Desktop\2022_christmas\libraries\net\minecraft\server\1.16.4-20201102.104115\server-1.16.4-20201102.104115-extra.jar is present
+[2512월2022 00:48:52.252] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Forge patches at C:\Users\jijii\Desktop\2022_christmas\libraries\net\minecraftforge\forge\1.16.4-35.1.4\forge-1.16.4-35.1.4-server.jar is present
+[2512월2022 00:48:52.252] [main/DEBUG] [net.minecraftforge.fml.loading.LanguageLoadingProvider/CORE]: Found 0 language providers
+[2512월2022 00:48:52.252] [main/DEBUG] [net.minecraftforge.fml.loading.LanguageLoadingProvider/CORE]: Adding forge as a language from C:\Users\jijii\Desktop\2022_christmas\libraries\net\minecraftforge\forge\1.16.4-35.1.4\forge-1.16.4-35.1.4-universal.jar
+[2512월2022 00:48:52.252] [main/DEBUG] [net.minecraftforge.fml.loading.LanguageLoadingProvider/CORE]: Adding file:/C:/Users/jijii/Desktop/2022_christmas/libraries/net/minecraftforge/forge/1.16.4-35.1.4/forge-1.16.4-35.1.4-universal.jar to languageloader classloader
+[2512월2022 00:48:52.308] [main/DEBUG] [net.minecraftforge.fml.loading.LanguageLoadingProvider/CORE]: Found 2 language providers
+[2512월2022 00:48:52.308] [main/DEBUG] [net.minecraftforge.fml.loading.LanguageLoadingProvider/CORE]: Found language provider javafml, version 35.1
+[2512월2022 00:48:52.308] [main/DEBUG] [net.minecraftforge.fml.loading.LanguageLoadingProvider/CORE]: Found language provider minecraft, version 1
+[2512월2022 00:48:52.324] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initialized transformation service fml
+[2512월2022 00:48:52.324] [main/DEBUG] [cpw.mods.modlauncher.NameMappingServiceHandler/MODLAUNCHER]: Current naming domain is 'srg'
+[2512월2022 00:48:52.324] [main/DEBUG] [cpw.mods.modlauncher.NameMappingServiceHandler/MODLAUNCHER]: Identified name mapping providers {}
+[2512월2022 00:48:52.324] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Transformation services begin scanning
+[2512월2022 00:48:52.324] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Beginning scan trigger - transformation service mixin
+[2512월2022 00:48:52.324] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: End scan trigger - transformation service mixin
+[2512월2022 00:48:52.324] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Beginning scan trigger - transformation service fml
+[2512월2022 00:48:52.324] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Initiating mod scan
+[2512월2022 00:48:52.339] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModListHandler/CORE]: Found mod coordinates from lists: []
+[2512월2022 00:48:52.402] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer/CORE]: Found Mod Locators : (mods folder:null),(maven libs:null),(exploded directory:null),(minecraft:null)
+[2512월2022 00:48:52.464] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\jijii\Desktop\2022_christmas\mods\joshxmas-1.16.4-1.0.1.jar
+[2512월2022 00:48:52.511] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file joshxmas-1.16.4-1.0.1.jar with {joshxmas} mods - versions {1.0.1}
+[2512월2022 00:48:52.511] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\jijii\Desktop\2022_christmas\mods\joshxmas-1.16.4-1.0.1.jar with language javafml
+[2512월2022 00:48:52.511] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\jijii\Desktop\2022_christmas\mods\worldedit-mod-7.2.5-dist.jar
+[2512월2022 00:48:52.511] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file worldedit-mod-7.2.5-dist.jar with {worldedit} mods - versions {7.2.5+57d5ac9}
+[2512월2022 00:48:52.527] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\jijii\Desktop\2022_christmas\mods\worldedit-mod-7.2.5-dist.jar with language javafml
+[2512월2022 00:48:52.527] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\jijii\Desktop\2022_christmas\libraries\net\minecraftforge\forge\1.16.4-35.1.4\forge-1.16.4-35.1.4-universal.jar
+[2512월2022 00:48:52.527] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file forge-1.16.4-35.1.4-universal.jar with {forge} mods - versions {35.1.4}
+[2512월2022 00:48:52.542] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\jijii\Desktop\2022_christmas\libraries\net\minecraftforge\forge\1.16.4-35.1.4\forge-1.16.4-35.1.4-universal.jar with language javafml
+[2512월2022 00:48:52.578] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Found coremod fieldtomethodtransformers with Javascript path META-INF/fieldtomethodtransformers.js
+[2512월2022 00:48:52.578] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Found coremod META-INF/fieldtomethodtransformers.js
+[2512월2022 00:48:52.578] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\jijii\Desktop\2022_christmas\libraries\net\minecraftforge\forge\1.16.4-35.1.4\forge-1.16.4-35.1.4-server.jar
+[2512월2022 00:48:52.593] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file forge-1.16.4-35.1.4-server.jar with {minecraft} mods - versions {1.16.4}
+[2512월2022 00:48:52.593] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\jijii\Desktop\2022_christmas\libraries\net\minecraftforge\forge\1.16.4-35.1.4\forge-1.16.4-35.1.4-server.jar with language minecraft
+[2512월2022 00:48:52.593] [main/DEBUG] [net.minecraftforge.fml.loading.ModSorter/LOADING]: Found 2 mandatory requirements
+[2512월2022 00:48:52.609] [main/DEBUG] [net.minecraftforge.fml.loading.ModSorter/LOADING]: Found 0 mandatory mod requirements missing
+[2512월2022 00:48:53.183] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: End scan trigger - transformation service fml
+[2512월2022 00:48:53.183] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Transformation services loading transformers
+[2512월2022 00:48:53.183] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initializing transformers for transformation service mixin
+[2512월2022 00:48:53.183] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initialized transformers for transformation service mixin
+[2512월2022 00:48:53.183] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initializing transformers for transformation service fml
+[2512월2022 00:48:53.183] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Loading coremod transformers
+[2512월2022 00:48:53.183] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: Loading CoreMod from META-INF/fieldtomethodtransformers.js
+[2512월2022 00:48:53.355] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: CoreMod loaded successfully
+[2512월2022 00:48:53.371] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@408b35bf to Target : CLASS {Lnet/minecraft/potion/EffectInstance;} {} {V}
+[2512월2022 00:48:53.371] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@726386ed to Target : CLASS {Lnet/minecraft/block/FlowingFluidBlock;} {} {V}
+[2512월2022 00:48:53.371] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@649f2009 to Target : CLASS {Lnet/minecraft/item/BucketItem;} {} {V}
+[2512월2022 00:48:53.371] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@14bb2297 to Target : CLASS {Lnet/minecraft/block/StairsBlock;} {} {V}
+[2512월2022 00:48:53.371] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@69adf72c to Target : CLASS {Lnet/minecraft/block/FlowerPotBlock;} {} {V}
+[2512월2022 00:48:53.371] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@797501a to Target : CLASS {Lnet/minecraft/item/FishBucketItem;} {} {V}
+[2512월2022 00:48:53.371] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initialized transformers for transformation service fml
+[2512월2022 00:48:53.402] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:ModLauncher Root Container(4f56a0a2)]
+[2512월2022 00:48:53.402] [main/DEBUG] [mixin/]: Processing launch tasks for PlatformAgent[MixinPlatformAgentDefault:ModLauncher Root Container(4f56a0a2)]
+[2512월2022 00:48:53.402] [main/DEBUG] [mixin/]: Adding mixin platform agents for container ContainerHandleModLauncher.Resource(forge-1.16.4-35.1.4-server.jar:C:\Users\jijii\Desktop\2022_christmas\libraries\net\minecraftforge\forge\1.16.4-35.1.4\forge-1.16.4-35.1.4-server.jar)
+[2512월2022 00:48:53.402] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for ContainerHandleModLauncher.Resource(forge-1.16.4-35.1.4-server.jar:C:\Users\jijii\Desktop\2022_christmas\libraries\net\minecraftforge\forge\1.16.4-35.1.4\forge-1.16.4-35.1.4-server.jar)
+[2512월2022 00:48:53.402] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container ContainerHandleModLauncher.Resource(forge-1.16.4-35.1.4-server.jar:C:\Users\jijii\Desktop\2022_christmas\libraries\net\minecraftforge\forge\1.16.4-35.1.4\forge-1.16.4-35.1.4-server.jar)
+[2512월2022 00:48:53.402] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for ContainerHandleModLauncher.Resource(forge-1.16.4-35.1.4-server.jar:C:\Users\jijii\Desktop\2022_christmas\libraries\net\minecraftforge\forge\1.16.4-35.1.4\forge-1.16.4-35.1.4-server.jar)
+[2512월2022 00:48:53.402] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container ContainerHandleModLauncher.Resource(forge-1.16.4-35.1.4-server.jar:C:\Users\jijii\Desktop\2022_christmas\libraries\net\minecraftforge\forge\1.16.4-35.1.4\forge-1.16.4-35.1.4-server.jar)
+[2512월2022 00:48:53.402] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:ContainerHandleModLauncher.Resource(forge-1.16.4-35.1.4-server.jar:C:\Users\jijii\Desktop\2022_christmas\libraries\net\minecraftforge\forge\1.16.4-35.1.4\forge-1.16.4-35.1.4-server.jar)]
+[2512월2022 00:48:53.402] [main/DEBUG] [mixin/]: Adding mixin platform agents for container ContainerHandleModLauncher.Resource(forge-1.16.4-35.1.4-universal.jar:C:\Users\jijii\Desktop\2022_christmas\libraries\net\minecraftforge\forge\1.16.4-35.1.4\forge-1.16.4-35.1.4-universal.jar)
+[2512월2022 00:48:53.402] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for ContainerHandleModLauncher.Resource(forge-1.16.4-35.1.4-universal.jar:C:\Users\jijii\Desktop\2022_christmas\libraries\net\minecraftforge\forge\1.16.4-35.1.4\forge-1.16.4-35.1.4-universal.jar)
+[2512월2022 00:48:53.402] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container ContainerHandleModLauncher.Resource(forge-1.16.4-35.1.4-universal.jar:C:\Users\jijii\Desktop\2022_christmas\libraries\net\minecraftforge\forge\1.16.4-35.1.4\forge-1.16.4-35.1.4-universal.jar)
+[2512월2022 00:48:53.402] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for ContainerHandleModLauncher.Resource(forge-1.16.4-35.1.4-universal.jar:C:\Users\jijii\Desktop\2022_christmas\libraries\net\minecraftforge\forge\1.16.4-35.1.4\forge-1.16.4-35.1.4-universal.jar)
+[2512월2022 00:48:53.402] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container ContainerHandleModLauncher.Resource(forge-1.16.4-35.1.4-universal.jar:C:\Users\jijii\Desktop\2022_christmas\libraries\net\minecraftforge\forge\1.16.4-35.1.4\forge-1.16.4-35.1.4-universal.jar)
+[2512월2022 00:48:53.402] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:ContainerHandleModLauncher.Resource(forge-1.16.4-35.1.4-universal.jar:C:\Users\jijii\Desktop\2022_christmas\libraries\net\minecraftforge\forge\1.16.4-35.1.4\forge-1.16.4-35.1.4-universal.jar)]
+[2512월2022 00:48:53.402] [main/DEBUG] [mixin/]: Adding mixin platform agents for container ContainerHandleModLauncher.Resource(worldedit-mod-7.2.5-dist.jar:C:\Users\jijii\Desktop\2022_christmas\mods\worldedit-mod-7.2.5-dist.jar)
+[2512월2022 00:48:53.402] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for ContainerHandleModLauncher.Resource(worldedit-mod-7.2.5-dist.jar:C:\Users\jijii\Desktop\2022_christmas\mods\worldedit-mod-7.2.5-dist.jar)
+[2512월2022 00:48:53.402] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container ContainerHandleModLauncher.Resource(worldedit-mod-7.2.5-dist.jar:C:\Users\jijii\Desktop\2022_christmas\mods\worldedit-mod-7.2.5-dist.jar)
+[2512월2022 00:48:53.402] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for ContainerHandleModLauncher.Resource(worldedit-mod-7.2.5-dist.jar:C:\Users\jijii\Desktop\2022_christmas\mods\worldedit-mod-7.2.5-dist.jar)
+[2512월2022 00:48:53.402] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container ContainerHandleModLauncher.Resource(worldedit-mod-7.2.5-dist.jar:C:\Users\jijii\Desktop\2022_christmas\mods\worldedit-mod-7.2.5-dist.jar)
+[2512월2022 00:48:53.402] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:ContainerHandleModLauncher.Resource(worldedit-mod-7.2.5-dist.jar:C:\Users\jijii\Desktop\2022_christmas\mods\worldedit-mod-7.2.5-dist.jar)]
+[2512월2022 00:48:53.402] [main/DEBUG] [mixin/]: Adding mixin platform agents for container ContainerHandleModLauncher.Resource(joshxmas-1.16.4-1.0.1.jar:C:\Users\jijii\Desktop\2022_christmas\mods\joshxmas-1.16.4-1.0.1.jar)
+[2512월2022 00:48:53.402] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for ContainerHandleModLauncher.Resource(joshxmas-1.16.4-1.0.1.jar:C:\Users\jijii\Desktop\2022_christmas\mods\joshxmas-1.16.4-1.0.1.jar)
+[2512월2022 00:48:53.402] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container ContainerHandleModLauncher.Resource(joshxmas-1.16.4-1.0.1.jar:C:\Users\jijii\Desktop\2022_christmas\mods\joshxmas-1.16.4-1.0.1.jar)
+[2512월2022 00:48:53.402] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for ContainerHandleModLauncher.Resource(joshxmas-1.16.4-1.0.1.jar:C:\Users\jijii\Desktop\2022_christmas\mods\joshxmas-1.16.4-1.0.1.jar)
+[2512월2022 00:48:53.402] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container ContainerHandleModLauncher.Resource(joshxmas-1.16.4-1.0.1.jar:C:\Users\jijii\Desktop\2022_christmas\mods\joshxmas-1.16.4-1.0.1.jar)
+[2512월2022 00:48:53.402] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:ContainerHandleModLauncher.Resource(joshxmas-1.16.4-1.0.1.jar:C:\Users\jijii\Desktop\2022_christmas\mods\joshxmas-1.16.4-1.0.1.jar)]
+[2512월2022 00:48:53.402] [main/DEBUG] [mixin/]: inject() running with 5 agents
+[2512월2022 00:48:53.402] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:ModLauncher Root Container(4f56a0a2)]
+[2512월2022 00:48:53.402] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:ContainerHandleModLauncher.Resource(forge-1.16.4-35.1.4-server.jar:C:\Users\jijii\Desktop\2022_christmas\libraries\net\minecraftforge\forge\1.16.4-35.1.4\forge-1.16.4-35.1.4-server.jar)]
+[2512월2022 00:48:53.402] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:ContainerHandleModLauncher.Resource(forge-1.16.4-35.1.4-universal.jar:C:\Users\jijii\Desktop\2022_christmas\libraries\net\minecraftforge\forge\1.16.4-35.1.4\forge-1.16.4-35.1.4-universal.jar)]
+[2512월2022 00:48:53.402] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:ContainerHandleModLauncher.Resource(worldedit-mod-7.2.5-dist.jar:C:\Users\jijii\Desktop\2022_christmas\mods\worldedit-mod-7.2.5-dist.jar)]
+[2512월2022 00:48:53.402] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:ContainerHandleModLauncher.Resource(joshxmas-1.16.4-1.0.1.jar:C:\Users\jijii\Desktop\2022_christmas\mods\joshxmas-1.16.4-1.0.1.jar)]
+[2512월2022 00:48:53.402] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'fmlserver' with arguments [--gameDir, .]
+[2512월2022 00:48:53.476] [main/DEBUG] [mixin/]: Error cleaning class output directory: .mixin.out\class: failed to delete one or more files; see suppressed exceptions for details
+[2512월2022 00:48:53.492] [main/DEBUG] [mixin/]: Preparing mixins for MixinEnvironment[DEFAULT]
+[2512월2022 00:48:54.309] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/block/FlowingFluidBlock
+[2512월2022 00:48:54.449] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/block/StairsBlock
+[2512월2022 00:48:55.047] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/block/FlowerPotBlock
+[2512월2022 00:48:59.544] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/item/BucketItem
+[2512월2022 00:48:59.560] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/item/FishBucketItem
+[2512월2022 00:48:59.757] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/potion/EffectInstance
+[2512월2022 00:49:01.331] [main/DEBUG] [net.minecraftforge.fml.ForgeI18n/CORE]: Loading I18N data entries: 4974
+[2512월2022 00:49:01.504] [main/DEBUG] [net.minecraftforge.fml.ModLoader/CORE]: Loading Network data for FML net version: FML2
+[2512월2022 00:49:01.518] [main/DEBUG] [net.minecraftforge.fml.ModWorkManager/LOADING]: Using 16 threads for parallel mod-loading
+[2512월2022 00:49:01.527] [main/DEBUG] [net.minecraftforge.fml.ModLoader/LOADING]: ModContainer is cpw.mods.modlauncher.TransformingClassLoader@5528a42c
+[2512월2022 00:49:01.564] [main/DEBUG] [net.minecraftforge.fml.ModLoader/LOADING]: ModContainer is cpw.mods.modlauncher.TransformingClassLoader@5528a42c
+[2512월2022 00:49:01.567] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLJavaModLanguageProvider/LOADING]: Loading FMLModContainer from classloader cpw.mods.modlauncher.TransformingClassLoader@5528a42c - got cpw.mods.modlauncher.TransformingClassLoader@5528a42c
+[2512월2022 00:49:01.568] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Creating FMLModContainer instance for net.minecraftforge.common.ForgeMod with classLoader cpw.mods.modlauncher.TransformingClassLoader@5528a42c & cpw.mods.modlauncher.TransformingClassLoader@5528a42c
+[2512월2022 00:49:01.599] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Loaded modclass net.minecraftforge.common.ForgeMod with cpw.mods.modlauncher.TransformingClassLoader@5528a42c
+[2512월2022 00:49:01.600] [main/DEBUG] [net.minecraftforge.fml.ModLoader/LOADING]: ModContainer is cpw.mods.modlauncher.TransformingClassLoader@5528a42c
+[2512월2022 00:49:01.600] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLJavaModLanguageProvider/LOADING]: Loading FMLModContainer from classloader cpw.mods.modlauncher.TransformingClassLoader@5528a42c - got cpw.mods.modlauncher.TransformingClassLoader@5528a42c
+[2512월2022 00:49:01.600] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Creating FMLModContainer instance for com.sk89q.worldedit.forge.ForgeWorldEdit with classLoader cpw.mods.modlauncher.TransformingClassLoader@5528a42c & cpw.mods.modlauncher.TransformingClassLoader@5528a42c
+[2512월2022 00:49:01.617] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Loaded modclass com.sk89q.worldedit.forge.ForgeWorldEdit with cpw.mods.modlauncher.TransformingClassLoader@5528a42c
+[2512월2022 00:49:01.617] [main/DEBUG] [net.minecraftforge.fml.ModLoader/LOADING]: ModContainer is cpw.mods.modlauncher.TransformingClassLoader@5528a42c
+[2512월2022 00:49:01.617] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLJavaModLanguageProvider/LOADING]: Loading FMLModContainer from classloader cpw.mods.modlauncher.TransformingClassLoader@5528a42c - got cpw.mods.modlauncher.TransformingClassLoader@5528a42c
+[2512월2022 00:49:01.618] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Creating FMLModContainer instance for com.criobite.joshxmas.ChristmasMod with classLoader cpw.mods.modlauncher.TransformingClassLoader@5528a42c & cpw.mods.modlauncher.TransformingClassLoader@5528a42c
+[2512월2022 00:49:01.620] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Loaded modclass com.criobite.joshxmas.ChristmasMod with cpw.mods.modlauncher.TransformingClassLoader@5528a42c
+[2512월2022 00:49:01.627] [modloading-worker-11/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Loading mod instance worldedit of type com.sk89q.worldedit.forge.ForgeWorldEdit
+[2512월2022 00:49:01.627] [modloading-worker-2/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Loading mod instance forge of type net.minecraftforge.common.ForgeMod
+[2512월2022 00:49:01.627] [modloading-worker-4/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Loading mod instance joshxmas of type com.criobite.joshxmas.ChristmasMod
+[2512월2022 00:49:01.629] [modloading-worker-4/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Loaded mod instance joshxmas of type com.criobite.joshxmas.ChristmasMod
+[2512월2022 00:49:01.629] [modloading-worker-4/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Injecting Automatic event subscribers for joshxmas
+[2512월2022 00:49:01.628] [modloading-worker-2/DEBUG] [net.minecraftforge.versions.forge.ForgeVersion/CORE]: Forge Version package package net.minecraftforge.versions.forge, Forge, version 35.1 from cpw.mods.modlauncher.TransformingClassLoader@5528a42c
+[2512월2022 00:49:01.629] [modloading-worker-2/DEBUG] [net.minecraftforge.versions.forge.ForgeVersion/CORE]: Found Forge version 35.1.4
+[2512월2022 00:49:01.630] [modloading-worker-2/DEBUG] [net.minecraftforge.versions.forge.ForgeVersion/CORE]: Found Forge spec 35.1
+[2512월2022 00:49:01.630] [modloading-worker-2/DEBUG] [net.minecraftforge.versions.forge.ForgeVersion/CORE]: Found Forge group net.minecraftforge
+[2512월2022 00:49:01.635] [modloading-worker-2/DEBUG] [net.minecraftforge.versions.mcp.MCPVersion/CORE]: Found MC version information 1.16.4
+[2512월2022 00:49:01.636] [modloading-worker-2/DEBUG] [net.minecraftforge.versions.mcp.MCPVersion/CORE]: Found MCP version information 20201102.104115
+[2512월2022 00:49:01.636] [modloading-worker-2/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 35.1.4, for MC 1.16.4 with MCP 20201102.104115
+[2512월2022 00:49:01.642] [modloading-worker-4/DEBUG] [net.minecraftforge.fml.AutomaticEventSubscriber/LOADING]: Attempting to inject @EventBusSubscriber classes into the eventbus for joshxmas
+[2512월2022 00:49:01.642] [modloading-worker-2/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v35.1.4 Initialized
+[2512월2022 00:49:01.688] [modloading-worker-4/DEBUG] [net.minecraftforge.fml.AutomaticEventSubscriber/LOADING]: Auto-subscribing com.criobite.joshxmas.XMasForgeEvents to FORGE
+[2512월2022 00:49:01.736] [modloading-worker-4/DEBUG] [net.minecraftforge.fml.AutomaticEventSubscriber/LOADING]: Auto-subscribing com.criobite.joshxmas.XMasEvents to MOD
+[2512월2022 00:49:01.744] [modloading-worker-4/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Completed Automatic event subscribers for joshxmas
+[2512월2022 00:49:01.744] [modloading-worker-4/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid joshxmas : FMLConstructModEvent
+[2512월2022 00:49:01.745] [modloading-worker-4/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid joshxmas : FMLConstructModEvent
+[2512월2022 00:49:01.772] [modloading-worker-11/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Loaded mod instance worldedit of type com.sk89q.worldedit.forge.ForgeWorldEdit
+[2512월2022 00:49:01.772] [modloading-worker-11/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Injecting Automatic event subscribers for worldedit
+[2512월2022 00:49:01.772] [modloading-worker-11/DEBUG] [net.minecraftforge.fml.AutomaticEventSubscriber/LOADING]: Attempting to inject @EventBusSubscriber classes into the eventbus for worldedit
+[2512월2022 00:49:01.774] [modloading-worker-11/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Completed Automatic event subscribers for worldedit
+[2512월2022 00:49:01.775] [modloading-worker-11/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid worldedit : FMLConstructModEvent
+[2512월2022 00:49:01.775] [modloading-worker-11/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid worldedit : FMLConstructModEvent
+[2512월2022 00:49:01.792] [modloading-worker-2/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Config file forge-client.toml for forge tracking
+[2512월2022 00:49:01.792] [modloading-worker-2/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Config file forge-server.toml for forge tracking
+[2512월2022 00:49:01.833] [modloading-worker-2/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Loaded mod instance forge of type net.minecraftforge.common.ForgeMod
+[2512월2022 00:49:01.833] [modloading-worker-2/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Injecting Automatic event subscribers for forge
+[2512월2022 00:49:01.833] [modloading-worker-2/DEBUG] [net.minecraftforge.fml.AutomaticEventSubscriber/LOADING]: Attempting to inject @EventBusSubscriber classes into the eventbus for forge
+[2512월2022 00:49:01.834] [modloading-worker-2/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Completed Automatic event subscribers for forge
+[2512월2022 00:49:01.834] [modloading-worker-2/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : FMLConstructModEvent
+[2512월2022 00:49:01.834] [modloading-worker-2/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : FMLConstructModEvent
+[2512월2022 00:49:01.837] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.NewRegistry
+[2512월2022 00:49:01.838] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.NewRegistry
+[2512월2022 00:49:01.838] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid worldedit : RegistryEvent.NewRegistry
+[2512월2022 00:49:01.838] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid worldedit : RegistryEvent.NewRegistry
+[2512월2022 00:49:01.838] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid joshxmas : RegistryEvent.NewRegistry
+[2512월2022 00:49:01.838] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid joshxmas : RegistryEvent.NewRegistry
+[2512월2022 00:49:01.882] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<minecraft:block>
+[2512월2022 00:49:01.882] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<minecraft:block>
+[2512월2022 00:49:01.882] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid worldedit : RegistryEvent.Register<minecraft:block>
+[2512월2022 00:49:01.882] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid worldedit : RegistryEvent.Register<minecraft:block>
+[2512월2022 00:49:01.882] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid joshxmas : RegistryEvent.Register<minecraft:block>
+[2512월2022 00:49:01.951] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid joshxmas : RegistryEvent.Register<minecraft:block>
+[2512월2022 00:49:01.955] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<minecraft:item>
+[2512월2022 00:49:01.955] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<minecraft:item>
+[2512월2022 00:49:01.956] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid worldedit : RegistryEvent.Register<minecraft:item>
+[2512월2022 00:49:01.956] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid worldedit : RegistryEvent.Register<minecraft:item>
+[2512월2022 00:49:01.956] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid joshxmas : RegistryEvent.Register<minecraft:item>
+[2512월2022 00:49:01.971] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid joshxmas : RegistryEvent.Register<minecraft:item>
+[2512월2022 00:49:01.974] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<forge:loot_modifier_serializers>
+[2512월2022 00:49:01.974] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<forge:loot_modifier_serializers>
+[2512월2022 00:49:01.976] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid worldedit : RegistryEvent.Register<forge:loot_modifier_serializers>
+[2512월2022 00:49:01.976] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid worldedit : RegistryEvent.Register<forge:loot_modifier_serializers>
+[2512월2022 00:49:01.976] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid joshxmas : RegistryEvent.Register<forge:loot_modifier_serializers>
+[2512월2022 00:49:01.977] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid joshxmas : RegistryEvent.Register<forge:loot_modifier_serializers>
+[2512월2022 00:49:01.978] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<minecraft:activity>
+[2512월2022 00:49:01.979] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<minecraft:activity>
+[2512월2022 00:49:01.979] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid worldedit : RegistryEvent.Register<minecraft:activity>
+[2512월2022 00:49:01.979] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid worldedit : RegistryEvent.Register<minecraft:activity>
+[2512월2022 00:49:01.979] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid joshxmas : RegistryEvent.Register<minecraft:activity>
+[2512월2022 00:49:01.980] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid joshxmas : RegistryEvent.Register<minecraft:activity>
+[2512월2022 00:49:01.981] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<minecraft:attribute>
+[2512월2022 00:49:01.981] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<minecraft:attribute>
+[2512월2022 00:49:01.982] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid worldedit : RegistryEvent.Register<minecraft:attribute>
+[2512월2022 00:49:01.982] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid worldedit : RegistryEvent.Register<minecraft:attribute>
+[2512월2022 00:49:01.982] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid joshxmas : RegistryEvent.Register<minecraft:attribute>
+[2512월2022 00:49:01.983] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid joshxmas : RegistryEvent.Register<minecraft:attribute>
+[2512월2022 00:49:01.984] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<minecraft:block_entity_type>
+[2512월2022 00:49:01.984] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<minecraft:block_entity_type>
+[2512월2022 00:49:01.984] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid worldedit : RegistryEvent.Register<minecraft:block_entity_type>
+[2512월2022 00:49:01.986] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid worldedit : RegistryEvent.Register<minecraft:block_entity_type>
+[2512월2022 00:49:01.987] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid joshxmas : RegistryEvent.Register<minecraft:block_entity_type>
+[2512월2022 00:49:01.990] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid joshxmas : RegistryEvent.Register<minecraft:block_entity_type>
+[2512월2022 00:49:01.991] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<minecraft:chunk_status>
+[2512월2022 00:49:01.992] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<minecraft:chunk_status>
+[2512월2022 00:49:01.992] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid worldedit : RegistryEvent.Register<minecraft:chunk_status>
+[2512월2022 00:49:01.992] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid worldedit : RegistryEvent.Register<minecraft:chunk_status>
+[2512월2022 00:49:01.992] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid joshxmas : RegistryEvent.Register<minecraft:chunk_status>
+[2512월2022 00:49:01.992] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid joshxmas : RegistryEvent.Register<minecraft:chunk_status>
+[2512월2022 00:49:01.994] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<minecraft:data_serializers>
+[2512월2022 00:49:01.994] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<minecraft:data_serializers>
+[2512월2022 00:49:01.994] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid worldedit : RegistryEvent.Register<minecraft:data_serializers>
+[2512월2022 00:49:01.995] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid worldedit : RegistryEvent.Register<minecraft:data_serializers>
+[2512월2022 00:49:01.995] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid joshxmas : RegistryEvent.Register<minecraft:data_serializers>
+[2512월2022 00:49:01.995] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid joshxmas : RegistryEvent.Register<minecraft:data_serializers>
+[2512월2022 00:49:01.996] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<minecraft:enchantment>
+[2512월2022 00:49:01.997] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<minecraft:enchantment>
+[2512월2022 00:49:01.997] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid worldedit : RegistryEvent.Register<minecraft:enchantment>
+[2512월2022 00:49:01.997] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid worldedit : RegistryEvent.Register<minecraft:enchantment>
+[2512월2022 00:49:01.998] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid joshxmas : RegistryEvent.Register<minecraft:enchantment>
+[2512월2022 00:49:01.998] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid joshxmas : RegistryEvent.Register<minecraft:enchantment>
+[2512월2022 00:49:01.999] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<minecraft:entity_type>
+[2512월2022 00:49:01.999] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<minecraft:entity_type>
+[2512월2022 00:49:01.999] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid worldedit : RegistryEvent.Register<minecraft:entity_type>
+[2512월2022 00:49:01.999] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid worldedit : RegistryEvent.Register<minecraft:entity_type>
+[2512월2022 00:49:01.999] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid joshxmas : RegistryEvent.Register<minecraft:entity_type>
+[2512월2022 00:49:01.999] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid joshxmas : RegistryEvent.Register<minecraft:entity_type>
+[2512월2022 00:49:02.000] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<minecraft:fluid>
+[2512월2022 00:49:02.000] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<minecraft:fluid>
+[2512월2022 00:49:02.001] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid worldedit : RegistryEvent.Register<minecraft:fluid>
+[2512월2022 00:49:02.001] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid worldedit : RegistryEvent.Register<minecraft:fluid>
+[2512월2022 00:49:02.001] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid joshxmas : RegistryEvent.Register<minecraft:fluid>
+[2512월2022 00:49:02.001] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid joshxmas : RegistryEvent.Register<minecraft:fluid>
+[2512월2022 00:49:02.002] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<minecraft:memory_module_type>
+[2512월2022 00:49:02.003] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<minecraft:memory_module_type>
+[2512월2022 00:49:02.003] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid worldedit : RegistryEvent.Register<minecraft:memory_module_type>
+[2512월2022 00:49:02.003] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid worldedit : RegistryEvent.Register<minecraft:memory_module_type>
+[2512월2022 00:49:02.003] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid joshxmas : RegistryEvent.Register<minecraft:memory_module_type>
+[2512월2022 00:49:02.003] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid joshxmas : RegistryEvent.Register<minecraft:memory_module_type>
+[2512월2022 00:49:02.004] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<minecraft:menu>
+[2512월2022 00:49:02.005] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<minecraft:menu>
+[2512월2022 00:49:02.005] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid worldedit : RegistryEvent.Register<minecraft:menu>
+[2512월2022 00:49:02.005] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid worldedit : RegistryEvent.Register<minecraft:menu>
+[2512월2022 00:49:02.005] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid joshxmas : RegistryEvent.Register<minecraft:menu>
+[2512월2022 00:49:02.005] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid joshxmas : RegistryEvent.Register<minecraft:menu>
+[2512월2022 00:49:02.007] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<minecraft:mob_effect>
+[2512월2022 00:49:02.007] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<minecraft:mob_effect>
+[2512월2022 00:49:02.007] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid worldedit : RegistryEvent.Register<minecraft:mob_effect>
+[2512월2022 00:49:02.008] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid worldedit : RegistryEvent.Register<minecraft:mob_effect>
+[2512월2022 00:49:02.008] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid joshxmas : RegistryEvent.Register<minecraft:mob_effect>
+[2512월2022 00:49:02.008] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid joshxmas : RegistryEvent.Register<minecraft:mob_effect>
+[2512월2022 00:49:02.009] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<minecraft:motive>
+[2512월2022 00:49:02.010] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<minecraft:motive>
+[2512월2022 00:49:02.010] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid worldedit : RegistryEvent.Register<minecraft:motive>
+[2512월2022 00:49:02.010] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid worldedit : RegistryEvent.Register<minecraft:motive>
+[2512월2022 00:49:02.010] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid joshxmas : RegistryEvent.Register<minecraft:motive>
+[2512월2022 00:49:02.010] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid joshxmas : RegistryEvent.Register<minecraft:motive>
+[2512월2022 00:49:02.012] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<minecraft:particle_type>
+[2512월2022 00:49:02.012] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<minecraft:particle_type>
+[2512월2022 00:49:02.012] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid worldedit : RegistryEvent.Register<minecraft:particle_type>
+[2512월2022 00:49:02.012] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid worldedit : RegistryEvent.Register<minecraft:particle_type>
+[2512월2022 00:49:02.012] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid joshxmas : RegistryEvent.Register<minecraft:particle_type>
+[2512월2022 00:49:02.012] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid joshxmas : RegistryEvent.Register<minecraft:particle_type>
+[2512월2022 00:49:02.013] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<minecraft:point_of_interest_type>
+[2512월2022 00:49:02.014] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<minecraft:point_of_interest_type>
+[2512월2022 00:49:02.014] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid worldedit : RegistryEvent.Register<minecraft:point_of_interest_type>
+[2512월2022 00:49:02.014] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid worldedit : RegistryEvent.Register<minecraft:point_of_interest_type>
+[2512월2022 00:49:02.014] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid joshxmas : RegistryEvent.Register<minecraft:point_of_interest_type>
+[2512월2022 00:49:02.014] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid joshxmas : RegistryEvent.Register<minecraft:point_of_interest_type>
+[2512월2022 00:49:02.015] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<minecraft:potion>
+[2512월2022 00:49:02.016] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<minecraft:potion>
+[2512월2022 00:49:02.016] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid worldedit : RegistryEvent.Register<minecraft:potion>
+[2512월2022 00:49:02.016] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid worldedit : RegistryEvent.Register<minecraft:potion>
+[2512월2022 00:49:02.017] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid joshxmas : RegistryEvent.Register<minecraft:potion>
+[2512월2022 00:49:02.017] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid joshxmas : RegistryEvent.Register<minecraft:potion>
+[2512월2022 00:49:02.020] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<minecraft:recipe_serializer>
+[2512월2022 00:49:02.056] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<minecraft:recipe_serializer>
+[2512월2022 00:49:02.056] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid worldedit : RegistryEvent.Register<minecraft:recipe_serializer>
+[2512월2022 00:49:02.056] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid worldedit : RegistryEvent.Register<minecraft:recipe_serializer>
+[2512월2022 00:49:02.056] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid joshxmas : RegistryEvent.Register<minecraft:recipe_serializer>
+[2512월2022 00:49:02.056] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid joshxmas : RegistryEvent.Register<minecraft:recipe_serializer>
+[2512월2022 00:49:02.057] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<minecraft:schedule>
+[2512월2022 00:49:02.057] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<minecraft:schedule>
+[2512월2022 00:49:02.057] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid worldedit : RegistryEvent.Register<minecraft:schedule>
+[2512월2022 00:49:02.057] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid worldedit : RegistryEvent.Register<minecraft:schedule>
+[2512월2022 00:49:02.057] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid joshxmas : RegistryEvent.Register<minecraft:schedule>
+[2512월2022 00:49:02.057] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid joshxmas : RegistryEvent.Register<minecraft:schedule>
+[2512월2022 00:49:02.058] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<minecraft:sensor_type>
+[2512월2022 00:49:02.058] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<minecraft:sensor_type>
+[2512월2022 00:49:02.058] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid worldedit : RegistryEvent.Register<minecraft:sensor_type>
+[2512월2022 00:49:02.059] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid worldedit : RegistryEvent.Register<minecraft:sensor_type>
+[2512월2022 00:49:02.059] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid joshxmas : RegistryEvent.Register<minecraft:sensor_type>
+[2512월2022 00:49:02.059] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid joshxmas : RegistryEvent.Register<minecraft:sensor_type>
+[2512월2022 00:49:02.059] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<minecraft:sound_event>
+[2512월2022 00:49:02.059] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<minecraft:sound_event>
+[2512월2022 00:49:02.059] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid worldedit : RegistryEvent.Register<minecraft:sound_event>
+[2512월2022 00:49:02.059] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid worldedit : RegistryEvent.Register<minecraft:sound_event>
+[2512월2022 00:49:02.060] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid joshxmas : RegistryEvent.Register<minecraft:sound_event>
+[2512월2022 00:49:02.061] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid joshxmas : RegistryEvent.Register<minecraft:sound_event>
+[2512월2022 00:49:02.063] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<minecraft:stat_type>
+[2512월2022 00:49:02.064] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<minecraft:stat_type>
+[2512월2022 00:49:02.064] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid worldedit : RegistryEvent.Register<minecraft:stat_type>
+[2512월2022 00:49:02.064] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid worldedit : RegistryEvent.Register<minecraft:stat_type>
+[2512월2022 00:49:02.064] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid joshxmas : RegistryEvent.Register<minecraft:stat_type>
+[2512월2022 00:49:02.065] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid joshxmas : RegistryEvent.Register<minecraft:stat_type>
+[2512월2022 00:49:02.065] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<minecraft:villager_profession>
+[2512월2022 00:49:02.065] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<minecraft:villager_profession>
+[2512월2022 00:49:02.065] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid worldedit : RegistryEvent.Register<minecraft:villager_profession>
+[2512월2022 00:49:02.065] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid worldedit : RegistryEvent.Register<minecraft:villager_profession>
+[2512월2022 00:49:02.065] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid joshxmas : RegistryEvent.Register<minecraft:villager_profession>
+[2512월2022 00:49:02.066] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid joshxmas : RegistryEvent.Register<minecraft:villager_profession>
+[2512월2022 00:49:02.066] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<minecraft:worldgen/biome>
+[2512월2022 00:49:02.066] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<minecraft:worldgen/biome>
+[2512월2022 00:49:02.066] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid worldedit : RegistryEvent.Register<minecraft:worldgen/biome>
+[2512월2022 00:49:02.066] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid worldedit : RegistryEvent.Register<minecraft:worldgen/biome>
+[2512월2022 00:49:02.066] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid joshxmas : RegistryEvent.Register<minecraft:worldgen/biome>
+[2512월2022 00:49:02.067] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid joshxmas : RegistryEvent.Register<minecraft:worldgen/biome>
+[2512월2022 00:49:02.067] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<minecraft:worldgen/block_placer_type>
+[2512월2022 00:49:02.067] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<minecraft:worldgen/block_placer_type>
+[2512월2022 00:49:02.067] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid worldedit : RegistryEvent.Register<minecraft:worldgen/block_placer_type>
+[2512월2022 00:49:02.067] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid worldedit : RegistryEvent.Register<minecraft:worldgen/block_placer_type>
+[2512월2022 00:49:02.067] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid joshxmas : RegistryEvent.Register<minecraft:worldgen/block_placer_type>
+[2512월2022 00:49:02.067] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid joshxmas : RegistryEvent.Register<minecraft:worldgen/block_placer_type>
+[2512월2022 00:49:02.068] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<minecraft:worldgen/block_state_provider_type>
+[2512월2022 00:49:02.068] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<minecraft:worldgen/block_state_provider_type>
+[2512월2022 00:49:02.068] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid worldedit : RegistryEvent.Register<minecraft:worldgen/block_state_provider_type>
+[2512월2022 00:49:02.068] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid worldedit : RegistryEvent.Register<minecraft:worldgen/block_state_provider_type>
+[2512월2022 00:49:02.068] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid joshxmas : RegistryEvent.Register<minecraft:worldgen/block_state_provider_type>
+[2512월2022 00:49:02.068] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid joshxmas : RegistryEvent.Register<minecraft:worldgen/block_state_provider_type>
+[2512월2022 00:49:02.069] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<minecraft:worldgen/carver>
+[2512월2022 00:49:02.069] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<minecraft:worldgen/carver>
+[2512월2022 00:49:02.069] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid worldedit : RegistryEvent.Register<minecraft:worldgen/carver>
+[2512월2022 00:49:02.069] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid worldedit : RegistryEvent.Register<minecraft:worldgen/carver>
+[2512월2022 00:49:02.069] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid joshxmas : RegistryEvent.Register<minecraft:worldgen/carver>
+[2512월2022 00:49:02.069] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid joshxmas : RegistryEvent.Register<minecraft:worldgen/carver>
+[2512월2022 00:49:02.070] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<minecraft:worldgen/decorator>
+[2512월2022 00:49:02.070] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<minecraft:worldgen/decorator>
+[2512월2022 00:49:02.070] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid worldedit : RegistryEvent.Register<minecraft:worldgen/decorator>
+[2512월2022 00:49:02.070] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid worldedit : RegistryEvent.Register<minecraft:worldgen/decorator>
+[2512월2022 00:49:02.070] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid joshxmas : RegistryEvent.Register<minecraft:worldgen/decorator>
+[2512월2022 00:49:02.070] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid joshxmas : RegistryEvent.Register<minecraft:worldgen/decorator>
+[2512월2022 00:49:02.070] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<minecraft:worldgen/feature>
+[2512월2022 00:49:02.071] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<minecraft:worldgen/feature>
+[2512월2022 00:49:02.073] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid worldedit : RegistryEvent.Register<minecraft:worldgen/feature>
+[2512월2022 00:49:02.073] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid worldedit : RegistryEvent.Register<minecraft:worldgen/feature>
+[2512월2022 00:49:02.073] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid joshxmas : RegistryEvent.Register<minecraft:worldgen/feature>
+[2512월2022 00:49:02.077] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid joshxmas : RegistryEvent.Register<minecraft:worldgen/feature>
+[2512월2022 00:49:02.078] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<minecraft:worldgen/foliage_placer_type>
+[2512월2022 00:49:02.078] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<minecraft:worldgen/foliage_placer_type>
+[2512월2022 00:49:02.078] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid worldedit : RegistryEvent.Register<minecraft:worldgen/foliage_placer_type>
+[2512월2022 00:49:02.078] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid worldedit : RegistryEvent.Register<minecraft:worldgen/foliage_placer_type>
+[2512월2022 00:49:02.078] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid joshxmas : RegistryEvent.Register<minecraft:worldgen/foliage_placer_type>
+[2512월2022 00:49:02.078] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid joshxmas : RegistryEvent.Register<minecraft:worldgen/foliage_placer_type>
+[2512월2022 00:49:02.079] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<minecraft:worldgen/structure_feature>
+[2512월2022 00:49:02.079] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<minecraft:worldgen/structure_feature>
+[2512월2022 00:49:02.079] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid worldedit : RegistryEvent.Register<minecraft:worldgen/structure_feature>
+[2512월2022 00:49:02.079] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid worldedit : RegistryEvent.Register<minecraft:worldgen/structure_feature>
+[2512월2022 00:49:02.079] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid joshxmas : RegistryEvent.Register<minecraft:worldgen/structure_feature>
+[2512월2022 00:49:02.079] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid joshxmas : RegistryEvent.Register<minecraft:worldgen/structure_feature>
+[2512월2022 00:49:02.079] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<minecraft:worldgen/surface_builder>
+[2512월2022 00:49:02.079] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<minecraft:worldgen/surface_builder>
+[2512월2022 00:49:02.079] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid worldedit : RegistryEvent.Register<minecraft:worldgen/surface_builder>
+[2512월2022 00:49:02.080] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid worldedit : RegistryEvent.Register<minecraft:worldgen/surface_builder>
+[2512월2022 00:49:02.080] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid joshxmas : RegistryEvent.Register<minecraft:worldgen/surface_builder>
+[2512월2022 00:49:02.080] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid joshxmas : RegistryEvent.Register<minecraft:worldgen/surface_builder>
+[2512월2022 00:49:02.080] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<minecraft:worldgen/tree_decorator_type>
+[2512월2022 00:49:02.080] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<minecraft:worldgen/tree_decorator_type>
+[2512월2022 00:49:02.080] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid worldedit : RegistryEvent.Register<minecraft:worldgen/tree_decorator_type>
+[2512월2022 00:49:02.080] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid worldedit : RegistryEvent.Register<minecraft:worldgen/tree_decorator_type>
+[2512월2022 00:49:02.080] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid joshxmas : RegistryEvent.Register<minecraft:worldgen/tree_decorator_type>
+[2512월2022 00:49:02.080] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid joshxmas : RegistryEvent.Register<minecraft:worldgen/tree_decorator_type>
+[2512월2022 00:49:02.082] [main/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Loading configs type COMMON
+[2512월2022 00:49:02.083] [modloading-worker-11/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : FMLCommonSetupEvent
+[2512월2022 00:49:02.083] [modloading-worker-9/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid joshxmas : FMLCommonSetupEvent
+[2512월2022 00:49:02.084] [modloading-worker-4/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid worldedit : FMLCommonSetupEvent
+[2512월2022 00:49:02.084] [modloading-worker-9/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid joshxmas : FMLCommonSetupEvent
+[2512월2022 00:49:02.105] [modloading-worker-4/INFO] [com.sk89q.worldedit.forge.ForgeWorldEdit/]: WorldEdit for Forge (version 7.2.5+57d5ac9) is loaded
+[2512월2022 00:49:02.108] [modloading-worker-4/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid worldedit : FMLCommonSetupEvent
+[2512월2022 00:49:02.121] [modloading-worker-11/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : FMLCommonSetupEvent
+[2512월2022 00:49:02.122] [modloading-worker-11/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid joshxmas : FMLDedicatedServerSetupEvent
+[2512월2022 00:49:02.122] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
+[2512월2022 00:49:02.122] [modloading-worker-6/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid worldedit : FMLDedicatedServerSetupEvent
+[2512월2022 00:49:02.122] [modloading-worker-9/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : FMLDedicatedServerSetupEvent
+[2512월2022 00:49:02.123] [modloading-worker-9/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : FMLDedicatedServerSetupEvent
+[2512월2022 00:49:02.122] [modloading-worker-11/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid joshxmas : FMLDedicatedServerSetupEvent
+[2512월2022 00:49:02.123] [modloading-worker-6/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid worldedit : FMLDedicatedServerSetupEvent
+[2512월2022 00:49:02.125] [modloading-worker-6/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : InterModEnqueueEvent
+[2512월2022 00:49:02.125] [modloading-worker-11/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid worldedit : InterModEnqueueEvent
+[2512월2022 00:49:02.127] [modloading-worker-6/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : InterModEnqueueEvent
+[2512월2022 00:49:02.127] [modloading-worker-11/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid worldedit : InterModEnqueueEvent
+[2512월2022 00:49:02.128] [modloading-worker-4/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid joshxmas : InterModEnqueueEvent
+[2512월2022 00:49:02.128] [modloading-worker-4/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid joshxmas : InterModEnqueueEvent
+[2512월2022 00:49:02.129] [modloading-worker-9/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : InterModProcessEvent
+[2512월2022 00:49:02.130] [modloading-worker-9/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : InterModProcessEvent
+[2512월2022 00:49:02.130] [modloading-worker-2/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid joshxmas : InterModProcessEvent
+[2512월2022 00:49:02.130] [modloading-worker-2/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid joshxmas : InterModProcessEvent
+[2512월2022 00:49:02.130] [modloading-worker-9/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid worldedit : InterModProcessEvent
+[2512월2022 00:49:02.130] [modloading-worker-9/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid worldedit : InterModProcessEvent
+[2512월2022 00:49:02.131] [modloading-worker-11/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : FMLLoadCompleteEvent
+[2512월2022 00:49:02.131] [modloading-worker-11/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : FMLLoadCompleteEvent
+[2512월2022 00:49:02.131] [modloading-worker-13/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid joshxmas : FMLLoadCompleteEvent
+[2512월2022 00:49:02.132] [modloading-worker-13/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid joshxmas : FMLLoadCompleteEvent
+[2512월2022 00:49:02.137] [modloading-worker-11/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid worldedit : FMLLoadCompleteEvent
+[2512월2022 00:49:02.137] [modloading-worker-11/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid worldedit : FMLLoadCompleteEvent
+[2512월2022 00:49:03.526] [main/DEBUG] [net.minecraftforge.common.ForgeTagHandler/]: Populated the TagCollectionManager with 3 extra types
+[2512월2022 00:49:04.095] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[2512월2022 00:49:04.418] [main/DEBUG] [net.minecraftforge.fml.server.ServerLifecycleHooks/CORE]: Generating PackInfo named mod:forge for mod file C:\Users\jijii\Desktop\2022_christmas\libraries\net\minecraftforge\forge\1.16.4-35.1.4\forge-1.16.4-35.1.4-universal.jar
+[2512월2022 00:49:04.419] [main/DEBUG] [net.minecraftforge.fml.server.ServerLifecycleHooks/CORE]: Generating PackInfo named mod:worldedit for mod file C:\Users\jijii\Desktop\2022_christmas\mods\worldedit-mod-7.2.5-dist.jar
+[2512월2022 00:49:04.419] [main/DEBUG] [net.minecraftforge.fml.server.ServerLifecycleHooks/CORE]: Generating PackInfo named mod:joshxmas for mod file C:\Users\jijii\Desktop\2022_christmas\mods\joshxmas-1.16.4-1.0.1.jar
+[2512월2022 00:49:04.445] [main/DEBUG] [net.minecraftforge.common.ForgeTagHandler/]: Gathering custom tag collection reader from types.
+[2512월2022 00:49:04.924] [Forge Version Check/DEBUG] [net.minecraftforge.fml.VersionChecker/]: [forge] Received version check data:
+{
+  "homepage": "https://files.minecraftforge.net/net/minecraftforge/forge/",
+  "promos": {
+    "1.1-latest": "1.3.4.29",
+    "1.2.3-latest": "1.4.1.64",
+    "1.2.4-latest": "2.0.0.68",
+    "1.2.5-latest": "3.4.9.171",
+    "1.3.2-latest": "4.3.5.318",
+    "1.4.0-latest": "5.0.0.326",
+    "1.4.1-latest": "6.0.0.329",
+    "1.4.2-latest": "6.0.1.355",
+    "1.4.3-latest": "6.2.1.358",
+    "1.4.4-latest": "6.3.0.378",
+    "1.4.5-latest": "6.4.2.448",
+    "1.4.6-latest": "6.5.0.489",
+    "1.4.7-latest": "6.6.2.534",
+    "1.5-latest": "7.7.0.598",
+    "1.5.1-latest": "7.7.2.682",
+    "1.5.2-latest": "7.8.1.738",
+    "1.5.2-recommended": "7.8.1.738",
+    "1.6.1-latest": "8.9.0.775",
+    "1.6.2-latest": "9.10.1.871",
+    "1.6.2-recommended": "9.10.1.871",
+    "1.6.3-latest": "9.11.0.878",
+    "1.6.4-latest": "9.11.1.1345",
+    "1.6.4-recommended": "9.11.1.1345",
+    "1.7.2-latest": "10.12.2.1161",
+    "1.7.2-recommended": "10.12.2.1161",
+    "1.7.10_pre4-latest": "10.12.2.1149",
+    "1.7.10-latest": "10.13.4.1614",
+    "1.7.10-recommended": "10.13.4.1614",
+    "1.8-latest": "11.14.4.1577",
+    "1.8-recommended": "11.14.4.1563",
+    "1.8.8-latest": "11.15.0.1655",
+    "1.8.9-latest": "11.15.1.2318",
+    "1.8.9-recommended": "11.15.1.2318",
+    "1.9-latest": "12.16.1.1938",
+    "1.9-recommended": "12.16.1.1887",
+    "1.9.4-latest": "12.17.0.2317",
+    "1.9.4-recommended": "12.17.0.2317",
+    "1.10-latest": "12.18.0.2000",
+    "1.10.2-latest": "12.18.3.2511",
+    "1.10.2-recommended": "12.18.3.2511",
+    "1.11-latest": "13.19.1.2199",
+    "1.11-recommended": "13.19.1.2189",
+    "1.11.2-latest": "13.20.1.2588",
+    "1.11.2-recommended": "13.20.1.2588",
+    "1.12-latest": "14.21.1.2443",
+    "1.12-recommended": "14.21.1.2387",
+    "1.12.1-latest": "14.22.1.2485",
+    "1.12.1-recommended": "14.22.1.2478",
+    "1.12.2-latest": "14.23.5.2860",
+    "1.12.2-recommended": "14.23.5.2859",
+    "1.13.2-latest": "25.0.223",
+    "1.14.2-latest": "26.0.63",
+    "1.14.3-latest": "27.0.60",
+    "1.14.4-latest": "28.2.26",
+    "1.14.4-recommended": "28.2.26",
+    "1.15-latest": "29.0.4",
+    "1.15.1-latest": "30.0.51",
+    "1.15.2-latest": "31.2.57",
+    "1.15.2-recommended": "31.2.57",
+    "1.16.1-latest": "32.0.108",
+    "1.16.2-latest": "33.0.61",
+    "1.16.3-latest": "34.1.42",
+    "1.16.3-recommended": "34.1.0",
+    "1.16.4-latest": "35.1.37",
+    "1.16.4-recommended": "35.1.4",
+    "1.16.5-latest": "36.2.39",
+    "1.16.5-recommended": "36.2.34",
+    "1.17.1-latest": "37.1.1",
+    "1.17.1-recommended": "37.1.1",
+    "1.18-latest": "38.0.17",
+    "1.18.1-latest": "39.1.2",
+    "1.18.1-recommended": "39.1.0",
+    "1.18.2-recommended": "40.1.0",
+    "1.18.2-latest": "40.1.92",
+    "1.19-latest": "41.1.0",
+    "1.19-recommended": "41.1.0",
+    "1.19.1-latest": "42.0.9",
+    "1.19.2-recommended": "43.2.0",
+    "1.19.2-latest": "43.2.1",
+    "1.19.3-latest": "44.0.37"
+  }
+}
+[2512월2022 00:49:04.925] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: UP_TO_DATE Current: 35.1.4 Target: null
+[2512월2022 00:49:04.926] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [joshxmas] Starting version check at https://criobite.com/christmas-mod/versions.json
+[2512월2022 00:49:05.003] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[2512월2022 00:49:05.006] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[2512월2022 00:49:05.008] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[2512월2022 00:49:05.011] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[2512월2022 00:49:05.014] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[2512월2022 00:49:05.028] [main/INFO] [net.minecraft.resources.SimpleReloadableResourceManager/]: Reloading ResourceManager: Default, forge-1.16.4-35.1.4-universal.jar, worldedit-mod-7.2.5-dist.jar, joshxmas-1.16.4-1.0.1.jar
+[2512월2022 00:49:05.719] [Forge Version Check/DEBUG] [net.minecraftforge.fml.VersionChecker/]: [joshxmas] Received version check data:
+{
+	"homepage": "https://minecraft.curseforge.com/projects/joshuas-christmas-mod/files",
+	"1.10.2": {
+		"<1.10.2-1.0.0>": "Initially released for Minecraft 1.10.2",
+		"<1.10.2-1.0.1>": "Minor tweaks to the sound files for records, reducing file size and making them mono like vanilla records.",
+		"<1.10.2-1.0.2>": "Added some additional configurations to light bulb crafting recipes for convenience. Further modifications will be grouped into larger updates.",
+		"<1.10.2-1.0.3>": "Found a bug with the recipe for green stockings, and a texture that had not been updated. Further modifications will try to be grouped into larger updates.",
+		"<1.10.2-1.1.0>": "Added presents, mistletoe, and yule logs. Also made a few minor tweaks to textures and naming.",
+		"<1.10.2-1.1.1>": "Fixed the major problems with presents. Also made some minor bug fixes and tweaks.",
+		"<1.10.2-1.2.0>": "Added small presents and peppermint logs, and made stockings hold items. Also tweaked and fixed various small things."
+	},
+	"1.11": {
+		"<1.11-1.0.0>": "Initially released for Minecraft 1.11",
+		"<1.11-1.1.0>": "Added presents, mistletoe, and yule logs. Also made a few minor tweaks to textures and naming.",
+		"<1.11-1.1.1>": "Fixed the major problems with presents. Also made some minor bug fixes and tweaks."
+	},
+	"1.11.2": {
+		"<1.11.2-1.1.0>": "Updated from Minecraft 1.11 to version 1.11.2.",
+		"<1.11.2-1.2.0>": "Added small presents and peppermint logs, and made stockings hold items. Also tweaked and fixed various small things."
+	},
+	"1.12.2": {
+		"<1.12.2-1.1.0>": "Initially released for Minecraft 1.12.2",
+		"<1.12.2-1.1.1>": "Fixed glass connecting to various blocks, and a small bug with drinks.",
+		"<1.12.2-1.2.0>": "Added small presents and peppermint logs, and made stockings hold items. Also tweaked and fixed various small things."
+	},
+	"1.16.4": {
+		"<1.0.0>": "Initially released for Minecraft 1.16.4!",
+		"<1.0.1>": "Updated textures, added 'ru_ru' & 'zh_tw' localization files."
+	},
+	"1.16.5": {
+		"<1.0.0>": "Initially released for Minecraft 1.16.4!",
+		"<1.0.1>": "Updated textures, added 'ru_ru' & 'zh_tw' localization files."
+	},
+	"promos": {
+		"1.10.2-latest": "1.10.2-1.2.0",
+		"1.10.2-recommended": "1.10.2-1.2.0",
+		"1.11-latest": "1.11-1.1.1",
+		"1.11-recommended": "1.11-1.1.1",
+		"1.11.2-latest": "1.11.2-1.2.0",
+		"1.11.2-recommended": "1.11.2-1.2.0",
+		"1.12.2-latest": "1.12.2-1.2.0",
+		"1.12.2-recommended": "1.12.2-1.2.0",
+		"1.16.4-latest": "1.0.1",
+		"1.16.4-recommended": "1.0.1",
+		"1.16.5-latest": "1.0.1",
+		"1.16.5-recommended": "1.0.1"
+	}
+}
+[2512월2022 00:49:05.720] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [joshxmas] Found status: UP_TO_DATE Current: 1.0.1 Target: null
+[2512월2022 00:49:06.364] [Worker-Main-11/INFO] [net.minecraft.item.crafting.RecipeManager/]: Loaded 7 recipes
+[2512월2022 00:49:07.452] [Worker-Main-11/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 927 advancements
+[2512월2022 00:49:09.019] [main/DEBUG] [net.minecraftforge.fml.FMLWorldPersistenceHook/WP]: Gathering id map for writing to world save world
+[2512월2022 00:49:09.032] [main/DEBUG] [net.minecraftforge.fml.FMLWorldPersistenceHook/WP]: ID Map collection complete world
+[2512월2022 00:49:15.775] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.16.4
+[2512월2022 00:49:15.779] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[2512월2022 00:49:15.781] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[2512월2022 00:49:15.785] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[2512월2022 00:49:15.915] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[2512월2022 00:49:15.927] [Server thread/INFO] [net.minecraft.network.NetworkSystem/]: Using default channel type
+[2512월2022 00:49:17.305] [Server thread/DEBUG] [net.minecraftforge.fml.loading.FileUtils/CORE]: Found existing serverconfig directory : .\world\serverconfig
+[2512월2022 00:49:17.306] [Server thread/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Loading configs type SERVER
+[2512월2022 00:49:17.307] [Server thread/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Built TOML config for .\world\serverconfig\forge-server.toml
+[2512월2022 00:49:17.310] [Server thread/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Loaded TOML config file .\world\serverconfig\forge-server.toml
+[2512월2022 00:49:17.313] [Server thread/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Watching TOML config file .\world\serverconfig\forge-server.toml for changes
+[2512월2022 00:49:17.315] [Server thread/DEBUG] [net.minecraftforge.common.ForgeConfig/FORGEMOD]: Loaded forge config file forge-server.toml
+[2512월2022 00:49:17.319] [Thread-1/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Config file forge-server.toml changed, sending notifies
+[2512월2022 00:49:17.320] [Thread-1/DEBUG] [net.minecraftforge.common.ForgeConfig/FORGEMOD]: Forge config just got changed on the file system!
+[2512월2022 00:49:17.338] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[2512월2022 00:49:17.519] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[2512월2022 00:49:18.174] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[2512월2022 00:49:18.175] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[2512월2022 00:49:18.671] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Time elapsed: 1150 ms
+[2512월2022 00:49:18.674] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (1.369s)! For help, type "help"
+[2512월2022 00:49:18.684] [Server thread/DEBUG] [net.minecraftforge.fml.ForgeI18n/CORE]: Loading I18N data entries: 245
+[2512월2022 00:49:19.328] [Server thread/INFO] [com.sk89q.worldedit.extension.platform.PlatformManager/]: Got request to register class com.sk89q.worldedit.forge.ForgePlatform with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@4541d9f2]
+[2512월2022 00:49:19.910] [Server thread/INFO] [com.sk89q.worldedit.extension.platform.PlatformCommandManager/]: Registering commands with com.sk89q.worldedit.forge.ForgePlatform
+[2512월2022 00:51:48.927] [Netty Server IO #2/DEBUG] [net.minecraftforge.fml.network.FMLHandshakeHandler/FMLHANDSHAKE]: Starting new modded network connection. Found 20 messages to dispatch.
+[2512월2022 00:51:49.510] [User Authenticator #1/INFO] [net.minecraft.network.login.ServerLoginNetHandler/]: UUID of player ssuee1217 is 46b0a61e-1836-4939-b517-1943fda53f87
+[2512월2022 00:51:49.552] [Server thread/DEBUG] [net.minecraftforge.fml.network.FMLHandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'net.minecraftforge.fml.network.FMLHandshakeMessages$S2CModList' to 'fml:handshake' sequence 0
+[2512월2022 00:51:49.602] [Netty Server IO #2/DEBUG] [net.minecraftforge.fml.network.FMLLoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 0
+[2512월2022 00:51:49.602] [Server thread/DEBUG] [net.minecraftforge.fml.network.FMLHandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry minecraft:recipe_serializer' to 'fml:handshake' sequence 1
+[2512월2022 00:51:49.604] [Netty Server IO #2/DEBUG] [net.minecraftforge.fml.network.FMLHandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 0 of type net.minecraftforge.fml.network.FMLHandshakeMessages$C2SModListReply
+[2512월2022 00:51:49.605] [Netty Server IO #2/DEBUG] [net.minecraftforge.fml.network.FMLHandshakeHandler/FMLHANDSHAKE]: Received client connection with modlist [minecraft, forge, worldedit, joshxmas]
+[2512월2022 00:51:49.605] [Netty Server IO #2/DEBUG] [net.minecraftforge.fml.network.NetworkRegistry/NETREGISTRY]: Channel 'worldedit:cui' : Version test of '1' from client : ACCEPTED
+[2512월2022 00:51:49.605] [Netty Server IO #2/DEBUG] [net.minecraftforge.fml.network.NetworkRegistry/NETREGISTRY]: Channel 'fml:loginwrapper' : Version test of 'FML2' from client : ACCEPTED
+[2512월2022 00:51:49.605] [Netty Server IO #2/DEBUG] [net.minecraftforge.fml.network.NetworkRegistry/NETREGISTRY]: Channel 'fml:handshake' : Version test of 'FML2' from client : ACCEPTED
+[2512월2022 00:51:49.606] [Netty Server IO #2/DEBUG] [net.minecraftforge.fml.network.NetworkRegistry/NETREGISTRY]: Channel 'worldedit:internal' : Version test of '1' from client : ACCEPTED
+[2512월2022 00:51:49.606] [Netty Server IO #2/DEBUG] [net.minecraftforge.fml.network.NetworkRegistry/NETREGISTRY]: Channel 'minecraft:unregister' : Version test of 'FML2' from client : ACCEPTED
+[2512월2022 00:51:49.606] [Netty Server IO #2/DEBUG] [net.minecraftforge.fml.network.NetworkRegistry/NETREGISTRY]: Channel 'fml:play' : Version test of 'FML2' from client : ACCEPTED
+[2512월2022 00:51:49.606] [Netty Server IO #2/DEBUG] [net.minecraftforge.fml.network.NetworkRegistry/NETREGISTRY]: Channel 'minecraft:register' : Version test of 'FML2' from client : ACCEPTED
+[2512월2022 00:51:49.606] [Netty Server IO #2/DEBUG] [net.minecraftforge.fml.network.NetworkRegistry/NETREGISTRY]: Accepting channel list from client
+[2512월2022 00:51:49.606] [Netty Server IO #2/DEBUG] [net.minecraftforge.fml.network.FMLHandshakeHandler/FMLHANDSHAKE]: Accepted client connection mod list
+[2512월2022 00:51:49.614] [Netty Server IO #2/DEBUG] [net.minecraftforge.fml.network.FMLLoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 1
+[2512월2022 00:51:49.614] [Netty Server IO #2/DEBUG] [net.minecraftforge.fml.network.FMLHandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 1 of type net.minecraftforge.fml.network.FMLHandshakeMessages$C2SAcknowledge
+[2512월2022 00:51:49.614] [Netty Server IO #2/DEBUG] [net.minecraftforge.fml.network.FMLHandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[2512월2022 00:51:49.652] [Server thread/DEBUG] [net.minecraftforge.fml.network.FMLHandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry minecraft:sound_event' to 'fml:handshake' sequence 2
+[2512월2022 00:51:49.699] [Netty Server IO #2/DEBUG] [net.minecraftforge.fml.network.FMLLoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 2
+[2512월2022 00:51:49.699] [Netty Server IO #2/DEBUG] [net.minecraftforge.fml.network.FMLHandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 2 of type net.minecraftforge.fml.network.FMLHandshakeMessages$C2SAcknowledge
+[2512월2022 00:51:49.699] [Netty Server IO #2/DEBUG] [net.minecraftforge.fml.network.FMLHandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[2512월2022 00:51:49.701] [Server thread/DEBUG] [net.minecraftforge.fml.network.FMLHandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry minecraft:particle_type' to 'fml:handshake' sequence 3
+[2512월2022 00:51:49.711] [Netty Server IO #2/DEBUG] [net.minecraftforge.fml.network.FMLLoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 3
+[2512월2022 00:51:49.712] [Netty Server IO #2/DEBUG] [net.minecraftforge.fml.network.FMLHandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 3 of type net.minecraftforge.fml.network.FMLHandshakeMessages$C2SAcknowledge
+[2512월2022 00:51:49.712] [Netty Server IO #2/DEBUG] [net.minecraftforge.fml.network.FMLHandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[2512월2022 00:51:49.751] [Server thread/DEBUG] [net.minecraftforge.fml.network.FMLHandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry minecraft:villager_profession' to 'fml:handshake' sequence 4
+[2512월2022 00:51:49.771] [Netty Server IO #2/DEBUG] [net.minecraftforge.fml.network.FMLLoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 4
+[2512월2022 00:51:49.771] [Netty Server IO #2/DEBUG] [net.minecraftforge.fml.network.FMLHandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 4 of type net.minecraftforge.fml.network.FMLHandshakeMessages$C2SAcknowledge
+[2512월2022 00:51:49.771] [Netty Server IO #2/DEBUG] [net.minecraftforge.fml.network.FMLHandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[2512월2022 00:51:49.802] [Server thread/DEBUG] [net.minecraftforge.fml.network.FMLHandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry minecraft:item' to 'fml:handshake' sequence 5
+[2512월2022 00:51:49.819] [Netty Server IO #2/DEBUG] [net.minecraftforge.fml.network.FMLLoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 5
+[2512월2022 00:51:49.819] [Netty Server IO #2/DEBUG] [net.minecraftforge.fml.network.FMLHandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 5 of type net.minecraftforge.fml.network.FMLHandshakeMessages$C2SAcknowledge
+[2512월2022 00:51:49.819] [Netty Server IO #2/DEBUG] [net.minecraftforge.fml.network.FMLHandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[2512월2022 00:51:49.852] [Server thread/DEBUG] [net.minecraftforge.fml.network.FMLHandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry minecraft:potion' to 'fml:handshake' sequence 6
+[2512월2022 00:51:49.862] [Netty Server IO #2/DEBUG] [net.minecraftforge.fml.network.FMLLoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 6
+[2512월2022 00:51:49.863] [Netty Server IO #2/DEBUG] [net.minecraftforge.fml.network.FMLHandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 6 of type net.minecraftforge.fml.network.FMLHandshakeMessages$C2SAcknowledge
+[2512월2022 00:51:49.863] [Netty Server IO #2/DEBUG] [net.minecraftforge.fml.network.FMLHandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[2512월2022 00:51:49.902] [Server thread/DEBUG] [net.minecraftforge.fml.network.FMLHandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry minecraft:block_entity_type' to 'fml:handshake' sequence 7
+[2512월2022 00:51:49.916] [Netty Server IO #2/DEBUG] [net.minecraftforge.fml.network.FMLLoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 7
+[2512월2022 00:51:49.916] [Netty Server IO #2/DEBUG] [net.minecraftforge.fml.network.FMLHandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 7 of type net.minecraftforge.fml.network.FMLHandshakeMessages$C2SAcknowledge
+[2512월2022 00:51:49.916] [Netty Server IO #2/DEBUG] [net.minecraftforge.fml.network.FMLHandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[2512월2022 00:51:49.951] [Server thread/DEBUG] [net.minecraftforge.fml.network.FMLHandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry minecraft:worldgen/feature' to 'fml:handshake' sequence 8
+[2512월2022 00:51:49.962] [Netty Server IO #2/DEBUG] [net.minecraftforge.fml.network.FMLLoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 8
+[2512월2022 00:51:49.963] [Netty Server IO #2/DEBUG] [net.minecraftforge.fml.network.FMLHandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 8 of type net.minecraftforge.fml.network.FMLHandshakeMessages$C2SAcknowledge
+[2512월2022 00:51:49.963] [Netty Server IO #2/DEBUG] [net.minecraftforge.fml.network.FMLHandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[2512월2022 00:51:50.001] [Server thread/DEBUG] [net.minecraftforge.fml.network.FMLHandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry minecraft:block' to 'fml:handshake' sequence 9
+[2512월2022 00:51:50.030] [Netty Server IO #2/DEBUG] [net.minecraftforge.fml.network.FMLLoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 9
+[2512월2022 00:51:50.030] [Netty Server IO #2/DEBUG] [net.minecraftforge.fml.network.FMLHandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 9 of type net.minecraftforge.fml.network.FMLHandshakeMessages$C2SAcknowledge
+[2512월2022 00:51:50.030] [Netty Server IO #2/DEBUG] [net.minecraftforge.fml.network.FMLHandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[2512월2022 00:51:50.052] [Server thread/DEBUG] [net.minecraftforge.fml.network.FMLHandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry minecraft:data_serializers' to 'fml:handshake' sequence 10
+[2512월2022 00:51:50.060] [Netty Server IO #2/DEBUG] [net.minecraftforge.fml.network.FMLLoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 10
+[2512월2022 00:51:50.060] [Netty Server IO #2/DEBUG] [net.minecraftforge.fml.network.FMLHandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 10 of type net.minecraftforge.fml.network.FMLHandshakeMessages$C2SAcknowledge
+[2512월2022 00:51:50.060] [Netty Server IO #2/DEBUG] [net.minecraftforge.fml.network.FMLHandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[2512월2022 00:51:50.101] [Server thread/DEBUG] [net.minecraftforge.fml.network.FMLHandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry minecraft:mob_effect' to 'fml:handshake' sequence 11
+[2512월2022 00:51:50.107] [Netty Server IO #2/DEBUG] [net.minecraftforge.fml.network.FMLLoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 11
+[2512월2022 00:51:50.107] [Netty Server IO #2/DEBUG] [net.minecraftforge.fml.network.FMLHandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 11 of type net.minecraftforge.fml.network.FMLHandshakeMessages$C2SAcknowledge
+[2512월2022 00:51:50.107] [Netty Server IO #2/DEBUG] [net.minecraftforge.fml.network.FMLHandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[2512월2022 00:51:50.151] [Server thread/DEBUG] [net.minecraftforge.fml.network.FMLHandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry minecraft:stat_type' to 'fml:handshake' sequence 12
+[2512월2022 00:51:50.163] [Netty Server IO #2/DEBUG] [net.minecraftforge.fml.network.FMLLoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 12
+[2512월2022 00:51:50.163] [Netty Server IO #2/DEBUG] [net.minecraftforge.fml.network.FMLHandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 12 of type net.minecraftforge.fml.network.FMLHandshakeMessages$C2SAcknowledge
+[2512월2022 00:51:50.163] [Netty Server IO #2/DEBUG] [net.minecraftforge.fml.network.FMLHandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[2512월2022 00:51:50.202] [Server thread/DEBUG] [net.minecraftforge.fml.network.FMLHandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry minecraft:menu' to 'fml:handshake' sequence 13
+[2512월2022 00:51:50.211] [Netty Server IO #2/DEBUG] [net.minecraftforge.fml.network.FMLLoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 13
+[2512월2022 00:51:50.211] [Netty Server IO #2/DEBUG] [net.minecraftforge.fml.network.FMLHandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 13 of type net.minecraftforge.fml.network.FMLHandshakeMessages$C2SAcknowledge
+[2512월2022 00:51:50.211] [Netty Server IO #2/DEBUG] [net.minecraftforge.fml.network.FMLHandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[2512월2022 00:51:50.252] [Server thread/DEBUG] [net.minecraftforge.fml.network.FMLHandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry minecraft:enchantment' to 'fml:handshake' sequence 14
+[2512월2022 00:51:50.261] [Netty Server IO #2/DEBUG] [net.minecraftforge.fml.network.FMLLoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 14
+[2512월2022 00:51:50.261] [Netty Server IO #2/DEBUG] [net.minecraftforge.fml.network.FMLHandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 14 of type net.minecraftforge.fml.network.FMLHandshakeMessages$C2SAcknowledge
+[2512월2022 00:51:50.261] [Netty Server IO #2/DEBUG] [net.minecraftforge.fml.network.FMLHandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[2512월2022 00:51:50.302] [Server thread/DEBUG] [net.minecraftforge.fml.network.FMLHandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry minecraft:motive' to 'fml:handshake' sequence 15
+[2512월2022 00:51:50.315] [Netty Server IO #2/DEBUG] [net.minecraftforge.fml.network.FMLLoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 15
+[2512월2022 00:51:50.315] [Netty Server IO #2/DEBUG] [net.minecraftforge.fml.network.FMLHandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 15 of type net.minecraftforge.fml.network.FMLHandshakeMessages$C2SAcknowledge
+[2512월2022 00:51:50.315] [Netty Server IO #2/DEBUG] [net.minecraftforge.fml.network.FMLHandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[2512월2022 00:51:50.353] [Server thread/DEBUG] [net.minecraftforge.fml.network.FMLHandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry minecraft:worldgen/biome' to 'fml:handshake' sequence 16
+[2512월2022 00:51:50.357] [Netty Server IO #2/DEBUG] [net.minecraftforge.fml.network.FMLLoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 16
+[2512월2022 00:51:50.357] [Netty Server IO #2/DEBUG] [net.minecraftforge.fml.network.FMLHandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 16 of type net.minecraftforge.fml.network.FMLHandshakeMessages$C2SAcknowledge
+[2512월2022 00:51:50.358] [Netty Server IO #2/DEBUG] [net.minecraftforge.fml.network.FMLHandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[2512월2022 00:51:50.401] [Server thread/DEBUG] [net.minecraftforge.fml.network.FMLHandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry minecraft:fluid' to 'fml:handshake' sequence 17
+[2512월2022 00:51:50.407] [Netty Server IO #2/DEBUG] [net.minecraftforge.fml.network.FMLLoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 17
+[2512월2022 00:51:50.407] [Netty Server IO #2/DEBUG] [net.minecraftforge.fml.network.FMLHandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 17 of type net.minecraftforge.fml.network.FMLHandshakeMessages$C2SAcknowledge
+[2512월2022 00:51:50.407] [Netty Server IO #2/DEBUG] [net.minecraftforge.fml.network.FMLHandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[2512월2022 00:51:50.452] [Server thread/DEBUG] [net.minecraftforge.fml.network.FMLHandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry minecraft:entity_type' to 'fml:handshake' sequence 18
+[2512월2022 00:51:50.502] [Server thread/DEBUG] [net.minecraftforge.fml.network.FMLHandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Config forge-server.toml' to 'fml:handshake' sequence 19
+[2512월2022 00:51:51.840] [Netty Server IO #2/DEBUG] [net.minecraftforge.fml.network.FMLLoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 18
+[2512월2022 00:51:51.841] [Netty Server IO #2/DEBUG] [net.minecraftforge.fml.network.FMLHandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 18 of type net.minecraftforge.fml.network.FMLHandshakeMessages$C2SAcknowledge
+[2512월2022 00:51:51.841] [Netty Server IO #2/DEBUG] [net.minecraftforge.fml.network.FMLHandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[2512월2022 00:51:51.842] [Netty Server IO #2/DEBUG] [net.minecraftforge.fml.network.FMLLoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 19
+[2512월2022 00:51:51.843] [Netty Server IO #2/DEBUG] [net.minecraftforge.fml.network.FMLHandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 19 of type net.minecraftforge.fml.network.FMLHandshakeMessages$C2SAcknowledge
+[2512월2022 00:51:51.843] [Netty Server IO #2/DEBUG] [net.minecraftforge.fml.network.FMLHandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[2512월2022 00:51:51.853] [Server thread/DEBUG] [net.minecraftforge.fml.network.FMLHandshakeHandler/FMLHANDSHAKE]: Handshake complete!
+[2512월2022 00:51:51.956] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.advancements.PlayerAdvancements@331bca4
+[2512월2022 00:51:51.977] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: ssuee1217[/39.115.114.85:50094] logged in with entity id 622 at (1687.594519580329, 20.0, -332.5002193486635)
+[2512월2022 00:51:52.017] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: ssuee1217 joined the game
+[2512월2022 00:54:20.347] [Server thread/DEBUG] [net.minecraftforge.fml.FMLWorldPersistenceHook/WP]: Gathering id map for writing to world save world
+[2512월2022 00:54:20.351] [Server thread/DEBUG] [net.minecraftforge.fml.FMLWorldPersistenceHook/WP]: ID Map collection complete world
+[2512월2022 00:59:20.239] [Server thread/DEBUG] [net.minecraftforge.fml.FMLWorldPersistenceHook/WP]: Gathering id map for writing to world save world
+[2512월2022 00:59:20.242] [Server thread/DEBUG] [net.minecraftforge.fml.FMLWorldPersistenceHook/WP]: ID Map collection complete world
+[2512월2022 01:00:08.834] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [10vccd7eg2oou]: started parsing
+[2512월2022 01:00:08.834] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [10vccd7eg2oou]: Consuming argument ``
+[2512월2022 01:00:09.070] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [11p9t1cdv0yx1]: started parsing
+[2512월2022 01:00:09.070] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [11p9t1cdv0yx1]: Consuming argument `1`
+[2512월2022 01:00:09.083] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [11p9t1cdv0yx1]: Finished looking at arguments. Finalizing command.
+[2512월2022 01:00:09.135] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [1vubdm2a9425b]: started parsing
+[2512월2022 01:00:09.135] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [1vubdm2a9425b]: Consuming argument `10`
+[2512월2022 01:00:09.135] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [1vubdm2a9425b]: Finished looking at arguments. Finalizing command.
+[2512월2022 01:00:09.285] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [0jzd4shijryee]: started parsing
+[2512월2022 01:00:09.285] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [0jzd4shijryee]: Consuming argument `101`
+[2512월2022 01:00:09.285] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [0jzd4shijryee]: Finished looking at arguments. Finalizing command.
+[2512월2022 01:00:09.552] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [15r35icvotyde]: started parsing
+[2512월2022 01:00:09.552] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [15r35icvotyde]: Consuming argument `101`
+[2512월2022 01:00:09.552] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [15r35icvotyde]: Finished looking at arguments. Finalizing command.
+[2512월2022 01:00:09.619] [Server thread/DEBUG] [com.sk89q.worldedit.world.registry.BundledBlockData/]: Using modjar://worldedit/com/sk89q/worldedit/world/registry/blocks.116.json for bundled block data.
+[2512월2022 01:03:33.867] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [0pp40pis3qnks]: started parsing
+[2512월2022 01:03:33.867] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [0pp40pis3qnks]: Consuming argument ``
+[2512월2022 01:03:34.202] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [0540ql07lolzo]: started parsing
+[2512월2022 01:03:34.202] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [0540ql07lolzo]: Consuming argument `1`
+[2512월2022 01:03:34.202] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [0540ql07lolzo]: Finished looking at arguments. Finalizing command.
+[2512월2022 01:03:34.285] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [0zz3owht1m13w]: started parsing
+[2512월2022 01:03:34.285] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [0zz3owht1m13w]: Consuming argument `10`
+[2512월2022 01:03:34.286] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [0zz3owht1m13w]: Finished looking at arguments. Finalizing command.
+[2512월2022 01:03:34.420] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [13bm0dqc8lbkf]: started parsing
+[2512월2022 01:03:34.420] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [13bm0dqc8lbkf]: Consuming argument `101`
+[2512월2022 01:03:34.421] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [13bm0dqc8lbkf]: Finished looking at arguments. Finalizing command.
+[2512월2022 01:03:34.519] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [1wo584fvb3eik]: started parsing
+[2512월2022 01:03:34.519] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [1wo584fvb3eik]: Consuming argument `101`
+[2512월2022 01:03:34.519] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [1wo584fvb3eik]: Finished looking at arguments. Finalizing command.
+[2512월2022 01:03:49.616] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [0lh8td07fztya]: started parsing
+[2512월2022 01:03:49.616] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [0lh8td07fztya]: Consuming argument ``
+[2512월2022 01:03:49.850] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [09ax3ifjqn76e]: started parsing
+[2512월2022 01:03:49.850] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [09ax3ifjqn76e]: Consuming argument `1`
+[2512월2022 01:03:49.850] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [09ax3ifjqn76e]: Finished looking at arguments. Finalizing command.
+[2512월2022 01:03:49.935] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [009uy6y6q9my8]: started parsing
+[2512월2022 01:03:49.935] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [009uy6y6q9my8]: Consuming argument `10`
+[2512월2022 01:03:49.936] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [009uy6y6q9my8]: Finished looking at arguments. Finalizing command.
+[2512월2022 01:03:50.048] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [03wk88o8rojif]: started parsing
+[2512월2022 01:03:50.048] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [03wk88o8rojif]: Consuming argument `101`
+[2512월2022 01:03:50.048] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [03wk88o8rojif]: Finished looking at arguments. Finalizing command.
+[2512월2022 01:03:50.169] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [093un6h81wzse]: started parsing
+[2512월2022 01:03:50.169] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [093un6h81wzse]: Consuming argument `101`
+[2512월2022 01:03:50.169] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [093un6h81wzse]: Finished looking at arguments. Finalizing command.
+[2512월2022 01:04:20.291] [Server thread/DEBUG] [net.minecraftforge.fml.FMLWorldPersistenceHook/WP]: Gathering id map for writing to world save world
+[2512월2022 01:04:20.293] [Server thread/DEBUG] [net.minecraftforge.fml.FMLWorldPersistenceHook/WP]: ID Map collection complete world
+[2512월2022 01:07:47.565] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [0dmlc1riwgjvc]: started parsing
+[2512월2022 01:07:47.566] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [0dmlc1riwgjvc]: Consuming argument ``
+[2512월2022 01:07:47.865] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [0e5kxk8gu324o]: started parsing
+[2512월2022 01:07:47.865] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [0e5kxk8gu324o]: Consuming argument `1`
+[2512월2022 01:07:47.866] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [0e5kxk8gu324o]: Finished looking at arguments. Finalizing command.
+[2512월2022 01:07:47.950] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [0rtdeje0oxe7c]: started parsing
+[2512월2022 01:07:47.950] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [0rtdeje0oxe7c]: Consuming argument `10`
+[2512월2022 01:07:47.950] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [0rtdeje0oxe7c]: Finished looking at arguments. Finalizing command.
+[2512월2022 01:07:48.066] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [08vtadd4h2pbk]: started parsing
+[2512월2022 01:07:48.066] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [08vtadd4h2pbk]: Consuming argument `101`
+[2512월2022 01:07:48.067] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [08vtadd4h2pbk]: Finished looking at arguments. Finalizing command.
+[2512월2022 01:07:48.183] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [08rsx58ire8x2]: started parsing
+[2512월2022 01:07:48.183] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [08rsx58ire8x2]: Consuming argument `101`
+[2512월2022 01:07:48.184] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [08rsx58ire8x2]: Finished looking at arguments. Finalizing command.
+[2512월2022 01:08:36.452] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [1o89b91g1or60]: started parsing
+[2512월2022 01:08:36.452] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [1o89b91g1or60]: Consuming argument ``
+[2512월2022 01:08:36.761] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [05s4h0l9zb24n]: started parsing
+[2512월2022 01:08:36.761] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [05s4h0l9zb24n]: Consuming argument `1`
+[2512월2022 01:08:36.762] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [05s4h0l9zb24n]: Finished looking at arguments. Finalizing command.
+[2512월2022 01:08:36.848] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [123hqyrwki3wt]: started parsing
+[2512월2022 01:08:36.848] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [123hqyrwki3wt]: Consuming argument `10`
+[2512월2022 01:08:36.848] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [123hqyrwki3wt]: Finished looking at arguments. Finalizing command.
+[2512월2022 01:08:36.953] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [0eecv7m91r6j6]: started parsing
+[2512월2022 01:08:36.953] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [0eecv7m91r6j6]: Consuming argument `101`
+[2512월2022 01:08:36.953] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [0eecv7m91r6j6]: Finished looking at arguments. Finalizing command.
+[2512월2022 01:08:37.065] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [0azytgwetf151]: started parsing
+[2512월2022 01:08:37.065] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [0azytgwetf151]: Consuming argument `101`
+[2512월2022 01:08:37.065] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [0azytgwetf151]: Finished looking at arguments. Finalizing command.
+[2512월2022 01:09:15.882] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [0g7sbo6bt8rea]: started parsing
+[2512월2022 01:09:15.882] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [0g7sbo6bt8rea]: Consuming argument ``
+[2512월2022 01:09:16.398] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [1kr2s7q9tbiah]: started parsing
+[2512월2022 01:09:16.398] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [1kr2s7q9tbiah]: Consuming argument `1`
+[2512월2022 01:09:16.398] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [1kr2s7q9tbiah]: Finished looking at arguments. Finalizing command.
+[2512월2022 01:09:16.482] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [0hkvlu7ofol9k]: started parsing
+[2512월2022 01:09:16.482] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [0hkvlu7ofol9k]: Consuming argument `10`
+[2512월2022 01:09:16.482] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [0hkvlu7ofol9k]: Finished looking at arguments. Finalizing command.
+[2512월2022 01:09:16.583] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [141smosv6fk6e]: started parsing
+[2512월2022 01:09:16.583] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [141smosv6fk6e]: Consuming argument `101`
+[2512월2022 01:09:16.583] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [141smosv6fk6e]: Finished looking at arguments. Finalizing command.
+[2512월2022 01:09:16.697] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [1kq2rbdffhvm7]: started parsing
+[2512월2022 01:09:16.697] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [1kq2rbdffhvm7]: Consuming argument `101`
+[2512월2022 01:09:16.697] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [1kq2rbdffhvm7]: Finished looking at arguments. Finalizing command.
+[2512월2022 01:09:20.266] [Server thread/DEBUG] [net.minecraftforge.fml.FMLWorldPersistenceHook/WP]: Gathering id map for writing to world save world
+[2512월2022 01:09:20.268] [Server thread/DEBUG] [net.minecraftforge.fml.FMLWorldPersistenceHook/WP]: ID Map collection complete world
+[2512월2022 01:13:33.795] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [0c65w90538xft]: started parsing
+[2512월2022 01:13:33.796] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [0c65w90538xft]: Consuming argument ``
+[2512월2022 01:13:34.113] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [1fifrn9d4ogi6]: started parsing
+[2512월2022 01:13:34.114] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [1fifrn9d4ogi6]: Consuming argument `1`
+[2512월2022 01:13:34.114] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [1fifrn9d4ogi6]: Finished looking at arguments. Finalizing command.
+[2512월2022 01:13:34.196] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [09gezhbfshzxf]: started parsing
+[2512월2022 01:13:34.196] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [09gezhbfshzxf]: Consuming argument `10`
+[2512월2022 01:13:34.196] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [09gezhbfshzxf]: Finished looking at arguments. Finalizing command.
+[2512월2022 01:13:34.323] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [0q4685i9ki61w]: started parsing
+[2512월2022 01:13:34.324] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [0q4685i9ki61w]: Consuming argument `101`
+[2512월2022 01:13:34.324] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [0q4685i9ki61w]: Finished looking at arguments. Finalizing command.
+[2512월2022 01:13:34.545] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [1t2mc6jodvw5l]: started parsing
+[2512월2022 01:13:34.545] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [1t2mc6jodvw5l]: Consuming argument `101`
+[2512월2022 01:13:34.545] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [1t2mc6jodvw5l]: Finished looking at arguments. Finalizing command.
+[2512월2022 01:14:20.258] [Server thread/DEBUG] [net.minecraftforge.fml.FMLWorldPersistenceHook/WP]: Gathering id map for writing to world save world
+[2512월2022 01:14:20.261] [Server thread/DEBUG] [net.minecraftforge.fml.FMLWorldPersistenceHook/WP]: ID Map collection complete world
+[2512월2022 01:19:20.251] [Server thread/DEBUG] [net.minecraftforge.fml.FMLWorldPersistenceHook/WP]: Gathering id map for writing to world save world
+[2512월2022 01:19:20.254] [Server thread/DEBUG] [net.minecraftforge.fml.FMLWorldPersistenceHook/WP]: ID Map collection complete world
+[2512월2022 01:24:20.252] [Server thread/DEBUG] [net.minecraftforge.fml.FMLWorldPersistenceHook/WP]: Gathering id map for writing to world save world
+[2512월2022 01:24:20.254] [Server thread/DEBUG] [net.minecraftforge.fml.FMLWorldPersistenceHook/WP]: ID Map collection complete world
+[2512월2022 01:25:18.632] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [10sni0gvg5u0n]: started parsing
+[2512월2022 01:25:18.633] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [10sni0gvg5u0n]: Consuming argument ``
+[2512월2022 01:25:18.936] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [0fl3oi5rrdkuv]: started parsing
+[2512월2022 01:25:18.936] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [0fl3oi5rrdkuv]: Consuming argument `3`
+[2512월2022 01:25:18.936] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [0fl3oi5rrdkuv]: Finished looking at arguments. Finalizing command.
+[2512월2022 01:25:19.036] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [0xmebpn34m0ne]: started parsing
+[2512월2022 01:25:19.037] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [0xmebpn34m0ne]: Consuming argument `35`
+[2512월2022 01:25:19.037] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [0xmebpn34m0ne]: Finished looking at arguments. Finalizing command.
+[2512월2022 01:25:19.503] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [0d3tmu7bkgipx]: started parsing
+[2512월2022 01:25:19.503] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [0d3tmu7bkgipx]: Consuming argument `35:`
+[2512월2022 01:25:19.962] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [1fza40ur3lea8]: started parsing
+[2512월2022 01:25:19.962] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [1fza40ur3lea8]: Consuming argument `35:8`
+[2512월2022 01:25:19.962] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [1fza40ur3lea8]: Finished looking at arguments. Finalizing command.
+[2512월2022 01:25:20.136] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [1m2m1i58e8czo]: started parsing
+[2512월2022 01:25:20.136] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [1m2m1i58e8czo]: Consuming argument `35:8`
+[2512월2022 01:25:20.136] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [1m2m1i58e8czo]: Finished looking at arguments. Finalizing command.
+[2512월2022 01:28:15.013] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [18ostm64f51c3]: started parsing
+[2512월2022 01:28:15.014] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [18ostm64f51c3]: Consuming argument ``
+[2512월2022 01:28:15.713] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [0vsx0q5vt3nre]: started parsing
+[2512월2022 01:28:15.713] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [0vsx0q5vt3nre]: Consuming argument `1`
+[2512월2022 01:28:15.713] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [0vsx0q5vt3nre]: Finished looking at arguments. Finalizing command.
+[2512월2022 01:28:15.968] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [0mgz3983a95yg]: started parsing
+[2512월2022 01:28:15.968] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [0mgz3983a95yg]: Consuming argument `17`
+[2512월2022 01:28:15.968] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [0mgz3983a95yg]: Finished looking at arguments. Finalizing command.
+[2512월2022 01:28:16.534] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [0fzip8h2a7d2j]: started parsing
+[2512월2022 01:28:16.534] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [0fzip8h2a7d2j]: Consuming argument `173`
+[2512월2022 01:28:16.534] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [0fzip8h2a7d2j]: Finished looking at arguments. Finalizing command.
+[2512월2022 01:28:16.717] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [0dyx91cetsf9x]: started parsing
+[2512월2022 01:28:16.717] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [0dyx91cetsf9x]: Consuming argument `173`
+[2512월2022 01:28:16.717] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [0dyx91cetsf9x]: Finished looking at arguments. Finalizing command.
+[2512월2022 01:29:20.257] [Server thread/DEBUG] [net.minecraftforge.fml.FMLWorldPersistenceHook/WP]: Gathering id map for writing to world save world
+[2512월2022 01:29:20.259] [Server thread/DEBUG] [net.minecraftforge.fml.FMLWorldPersistenceHook/WP]: ID Map collection complete world
+[2512월2022 01:29:42.934] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [1h3jikv2jlomc]: started parsing
+[2512월2022 01:29:42.934] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [1h3jikv2jlomc]: Consuming argument ``
+[2512월2022 01:29:44.469] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [1tlly1g88x6s0]: started parsing
+[2512월2022 01:29:44.469] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [1tlly1g88x6s0]: Consuming argument `7`
+[2512월2022 01:29:44.470] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [1tlly1g88x6s0]: Finished looking at arguments. Finalizing command.
+[2512월2022 01:29:44.680] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [0fw01q34odbyg]: started parsing
+[2512월2022 01:29:44.680] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [0fw01q34odbyg]: Consuming argument `75`
+[2512월2022 01:29:53.070] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [1xw2q8g99ycmp]: started parsing
+[2512월2022 01:29:53.070] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [1xw2q8g99ycmp]: Consuming argument `75`
+[2512월2022 01:29:53.864] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [1rbp8s8m7h546]: started parsing
+[2512월2022 01:29:53.864] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [1rbp8s8m7h546]: Consuming argument `7`
+[2512월2022 01:29:53.864] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [1rbp8s8m7h546]: Finished looking at arguments. Finalizing command.
+[2512월2022 01:29:54.032] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [16cl26lf53omw]: started parsing
+[2512월2022 01:29:54.032] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [16cl26lf53omw]: Consuming argument ``
+[2512월2022 01:29:54.716] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [0thbqu49rtuxn]: started parsing
+[2512월2022 01:29:54.716] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [0thbqu49rtuxn]: Consuming argument `1`
+[2512월2022 01:29:54.716] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [0thbqu49rtuxn]: Finished looking at arguments. Finalizing command.
+[2512월2022 01:29:54.966] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [0s6s2ml6ff2sj]: started parsing
+[2512월2022 01:29:54.966] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [0s6s2ml6ff2sj]: Consuming argument `17`
+[2512월2022 01:29:54.966] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [0s6s2ml6ff2sj]: Finished looking at arguments. Finalizing command.
+[2512월2022 01:29:55.500] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [0zovyklf39wmn]: started parsing
+[2512월2022 01:29:55.500] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [0zovyklf39wmn]: Consuming argument `173`
+[2512월2022 01:29:55.500] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [0zovyklf39wmn]: Finished looking at arguments. Finalizing command.
+[2512월2022 01:29:55.728] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [13r2gjefz3z9r]: started parsing
+[2512월2022 01:29:55.728] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [13r2gjefz3z9r]: Consuming argument `173`
+[2512월2022 01:29:55.728] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [13r2gjefz3z9r]: Finished looking at arguments. Finalizing command.
+[2512월2022 01:31:47.131] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [1qhmifbsgj9p2]: started parsing
+[2512월2022 01:31:47.131] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [1qhmifbsgj9p2]: Consuming argument ``
+[2512월2022 01:31:47.998] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [18fh0bgpkdtfk]: started parsing
+[2512월2022 01:31:47.998] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [18fh0bgpkdtfk]: Consuming argument `1`
+[2512월2022 01:31:47.999] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [18fh0bgpkdtfk]: Finished looking at arguments. Finalizing command.
+[2512월2022 01:31:48.234] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [11g6mx5p99o9k]: started parsing
+[2512월2022 01:31:48.234] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [11g6mx5p99o9k]: Consuming argument `12`
+[2512월2022 01:31:48.234] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [11g6mx5p99o9k]: Finished looking at arguments. Finalizing command.
+[2512월2022 01:31:48.449] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [0ezd2zxk0zvsb]: started parsing
+[2512월2022 01:31:48.449] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [0ezd2zxk0zvsb]: Consuming argument `123`
+[2512월2022 01:31:48.449] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [0ezd2zxk0zvsb]: Finished looking at arguments. Finalizing command.
+[2512월2022 01:31:48.782] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [09r16i2uoeknc]: started parsing
+[2512월2022 01:31:48.782] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [09r16i2uoeknc]: Consuming argument `123`
+[2512월2022 01:31:48.782] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [09r16i2uoeknc]: Finished looking at arguments. Finalizing command.
+[2512월2022 01:32:24.581] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [1jrag7rifvi5c]: started parsing
+[2512월2022 01:32:24.581] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [1jrag7rifvi5c]: Consuming argument ``
+[2512월2022 01:32:24.882] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [18h297p1f7fq6]: started parsing
+[2512월2022 01:32:24.883] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [18h297p1f7fq6]: Consuming argument `1`
+[2512월2022 01:32:24.883] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [18h297p1f7fq6]: Finished looking at arguments. Finalizing command.
+[2512월2022 01:32:25.098] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [0nlub8jg9c4r5]: started parsing
+[2512월2022 01:32:25.098] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [0nlub8jg9c4r5]: Consuming argument `17`
+[2512월2022 01:32:25.098] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [0nlub8jg9c4r5]: Finished looking at arguments. Finalizing command.
+[2512월2022 01:32:25.247] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [0e6t9va2uz1d9]: started parsing
+[2512월2022 01:32:25.248] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [0e6t9va2uz1d9]: Consuming argument `173`
+[2512월2022 01:32:25.248] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [0e6t9va2uz1d9]: Finished looking at arguments. Finalizing command.
+[2512월2022 01:32:25.432] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [17t651pwlxan0]: started parsing
+[2512월2022 01:32:25.432] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [17t651pwlxan0]: Consuming argument `173`
+[2512월2022 01:32:25.433] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [17t651pwlxan0]: Finished looking at arguments. Finalizing command.
+[2512월2022 01:32:45.197] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [1unw0sr1svgun]: started parsing
+[2512월2022 01:32:45.197] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [1unw0sr1svgun]: Consuming argument ``
+[2512월2022 01:32:45.798] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [00jxeuzi2a5ln]: started parsing
+[2512월2022 01:32:45.798] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [00jxeuzi2a5ln]: Consuming argument `1`
+[2512월2022 01:32:45.798] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [00jxeuzi2a5ln]: Finished looking at arguments. Finalizing command.
+[2512월2022 01:32:46.033] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [0n7fpu3ulnjlu]: started parsing
+[2512월2022 01:32:46.033] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [0n7fpu3ulnjlu]: Consuming argument `17`
+[2512월2022 01:32:46.033] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [0n7fpu3ulnjlu]: Finished looking at arguments. Finalizing command.
+[2512월2022 01:32:46.164] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [070y187ruowym]: started parsing
+[2512월2022 01:32:46.164] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [070y187ruowym]: Consuming argument `173`
+[2512월2022 01:32:46.164] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [070y187ruowym]: Finished looking at arguments. Finalizing command.
+[2512월2022 01:32:46.316] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [0em3mkugbqc54]: started parsing
+[2512월2022 01:32:46.316] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [0em3mkugbqc54]: Consuming argument `173`
+[2512월2022 01:32:46.316] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [0em3mkugbqc54]: Finished looking at arguments. Finalizing command.
+[2512월2022 01:33:02.964] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [0tu6iv2c4vi5n]: started parsing
+[2512월2022 01:33:02.964] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [0tu6iv2c4vi5n]: Consuming argument ``
+[2512월2022 01:33:03.499] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [1tp5658lpra31]: started parsing
+[2512월2022 01:33:03.499] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [1tp5658lpra31]: Consuming argument `2`
+[2512월2022 01:33:03.500] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [1tp5658lpra31]: Finished looking at arguments. Finalizing command.
+[2512월2022 01:33:03.747] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [1q6eaa919cnhw]: started parsing
+[2512월2022 01:33:03.747] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [1q6eaa919cnhw]: Consuming argument `21`
+[2512월2022 01:33:03.748] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [1q6eaa919cnhw]: Finished looking at arguments. Finalizing command.
+[2512월2022 01:33:04.397] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [1ct5iollhdqtq]: started parsing
+[2512월2022 01:33:04.397] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [1ct5iollhdqtq]: Consuming argument `213`
+[2512월2022 01:33:04.397] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [1ct5iollhdqtq]: Finished looking at arguments. Finalizing command.
+[2512월2022 01:33:05.032] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [0edwkaozun8mx]: started parsing
+[2512월2022 01:33:05.032] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [0edwkaozun8mx]: Consuming argument `21`
+[2512월2022 01:33:05.032] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [0edwkaozun8mx]: Finished looking at arguments. Finalizing command.
+[2512월2022 01:33:05.530] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [0ku6hnaiep0yl]: started parsing
+[2512월2022 01:33:05.530] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [0ku6hnaiep0yl]: Consuming argument `2`
+[2512월2022 01:33:05.530] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [0ku6hnaiep0yl]: Finished looking at arguments. Finalizing command.
+[2512월2022 01:33:05.561] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [18m87gwu0jlb2]: started parsing
+[2512월2022 01:33:05.561] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [18m87gwu0jlb2]: Consuming argument ``
+[2512월2022 01:33:13.397] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [1ju7s24ymce7m]: started parsing
+[2512월2022 01:33:13.397] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [1ju7s24ymce7m]: Consuming argument ``
+[2512월2022 01:33:13.933] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [0tclwwhy9vslx]: started parsing
+[2512월2022 01:33:13.933] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [0tclwwhy9vslx]: Consuming argument `2`
+[2512월2022 01:33:13.933] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [0tclwwhy9vslx]: Finished looking at arguments. Finalizing command.
+[2512월2022 01:33:14.084] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [07u5jwv4lrnt7]: started parsing
+[2512월2022 01:33:14.084] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [07u5jwv4lrnt7]: Consuming argument `21`
+[2512월2022 01:33:14.085] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [07u5jwv4lrnt7]: Finished looking at arguments. Finalizing command.
+[2512월2022 01:33:14.236] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [0k0jtoocnv9fg]: started parsing
+[2512월2022 01:33:14.236] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [0k0jtoocnv9fg]: Consuming argument `213`
+[2512월2022 01:33:14.236] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [0k0jtoocnv9fg]: Finished looking at arguments. Finalizing command.
+[2512월2022 01:33:14.384] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [1gnu0e51iaeq8]: started parsing
+[2512월2022 01:33:14.384] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [1gnu0e51iaeq8]: Consuming argument `213`
+[2512월2022 01:33:14.384] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [1gnu0e51iaeq8]: Finished looking at arguments. Finalizing command.
+[2512월2022 01:33:27.912] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [1beyj9hj7wnle]: started parsing
+[2512월2022 01:33:27.912] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [1beyj9hj7wnle]: Consuming argument ``
+[2512월2022 01:33:28.162] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [0pic2y6jaywf8]: started parsing
+[2512월2022 01:33:28.162] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [0pic2y6jaywf8]: Consuming argument `1`
+[2512월2022 01:33:28.162] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [0pic2y6jaywf8]: Finished looking at arguments. Finalizing command.
+[2512월2022 01:33:28.248] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [0ay57y2wfhhwn]: started parsing
+[2512월2022 01:33:28.248] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [0ay57y2wfhhwn]: Consuming argument `12`
+[2512월2022 01:33:28.248] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [0ay57y2wfhhwn]: Finished looking at arguments. Finalizing command.
+[2512월2022 01:33:28.383] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [16c9l0siojc8j]: started parsing
+[2512월2022 01:33:28.383] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [16c9l0siojc8j]: Consuming argument `123`
+[2512월2022 01:33:28.383] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [16c9l0siojc8j]: Finished looking at arguments. Finalizing command.
+[2512월2022 01:33:28.747] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [1w4bfxsc5ko1k]: started parsing
+[2512월2022 01:33:28.747] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [1w4bfxsc5ko1k]: Consuming argument `123`
+[2512월2022 01:33:28.748] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [1w4bfxsc5ko1k]: Finished looking at arguments. Finalizing command.
+[2512월2022 01:34:20.223] [Server thread/DEBUG] [net.minecraftforge.fml.FMLWorldPersistenceHook/WP]: Gathering id map for writing to world save world
+[2512월2022 01:34:20.226] [Server thread/DEBUG] [net.minecraftforge.fml.FMLWorldPersistenceHook/WP]: ID Map collection complete world
+[2512월2022 01:34:52.063] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [1xhp1rpeh9anm]: started parsing
+[2512월2022 01:34:52.063] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [1xhp1rpeh9anm]: Consuming argument ``
+[2512월2022 01:34:52.331] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [0jtfep1b9yqpw]: started parsing
+[2512월2022 01:34:52.331] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [0jtfep1b9yqpw]: Consuming argument `1`
+[2512월2022 01:34:52.331] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [0jtfep1b9yqpw]: Finished looking at arguments. Finalizing command.
+[2512월2022 01:34:52.530] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [0vgcn08aaa3od]: started parsing
+[2512월2022 01:34:52.530] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [0vgcn08aaa3od]: Consuming argument `17`
+[2512월2022 01:34:52.531] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [0vgcn08aaa3od]: Finished looking at arguments. Finalizing command.
+[2512월2022 01:34:52.663] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [0aip4lur3zmpr]: started parsing
+[2512월2022 01:34:52.663] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [0aip4lur3zmpr]: Consuming argument `173`
+[2512월2022 01:34:52.663] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [0aip4lur3zmpr]: Finished looking at arguments. Finalizing command.
+[2512월2022 01:34:52.812] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [00g6080kgns9k]: started parsing
+[2512월2022 01:34:52.812] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [00g6080kgns9k]: Consuming argument `173`
+[2512월2022 01:34:52.812] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [00g6080kgns9k]: Finished looking at arguments. Finalizing command.
+[2512월2022 01:35:56.945] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [0hvwiubq7v8wf]: started parsing
+[2512월2022 01:35:56.945] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [0hvwiubq7v8wf]: Consuming argument ``
+[2512월2022 01:35:57.178] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [0d5o6p71j5gq1]: started parsing
+[2512월2022 01:35:57.179] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [0d5o6p71j5gq1]: Consuming argument `1`
+[2512월2022 01:35:57.179] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [0d5o6p71j5gq1]: Finished looking at arguments. Finalizing command.
+[2512월2022 01:35:57.445] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [1v1wvtjd7wqo0]: started parsing
+[2512월2022 01:35:57.445] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [1v1wvtjd7wqo0]: Consuming argument `17`
+[2512월2022 01:35:57.445] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [1v1wvtjd7wqo0]: Finished looking at arguments. Finalizing command.
+[2512월2022 01:35:57.529] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [11r5x51eyj2r5]: started parsing
+[2512월2022 01:35:57.529] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [11r5x51eyj2r5]: Consuming argument `173`
+[2512월2022 01:35:57.529] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [11r5x51eyj2r5]: Finished looking at arguments. Finalizing command.
+[2512월2022 01:35:57.948] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [1htdpuzgwpvut]: started parsing
+[2512월2022 01:35:57.948] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [1htdpuzgwpvut]: Consuming argument `173`
+[2512월2022 01:35:57.948] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [1htdpuzgwpvut]: Finished looking at arguments. Finalizing command.
+[2512월2022 01:36:31.915] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [19ffs6clf9mlo]: started parsing
+[2512월2022 01:36:31.915] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [19ffs6clf9mlo]: Consuming argument ``
+[2512월2022 01:36:32.578] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [0z1tdlu4lvw37]: started parsing
+[2512월2022 01:36:32.578] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [0z1tdlu4lvw37]: Consuming argument `1`
+[2512월2022 01:36:32.578] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [0z1tdlu4lvw37]: Finished looking at arguments. Finalizing command.
+[2512월2022 01:36:32.816] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [11a5v7l8zzmig]: started parsing
+[2512월2022 01:36:32.816] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [11a5v7l8zzmig]: Consuming argument `17`
+[2512월2022 01:36:32.816] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [11a5v7l8zzmig]: Finished looking at arguments. Finalizing command.
+[2512월2022 01:36:32.977] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [12zh3vrqs753l]: started parsing
+[2512월2022 01:36:32.977] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [12zh3vrqs753l]: Consuming argument `173`
+[2512월2022 01:36:32.977] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [12zh3vrqs753l]: Finished looking at arguments. Finalizing command.
+[2512월2022 01:36:33.828] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [1mz5d84so7fyu]: started parsing
+[2512월2022 01:36:33.828] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [1mz5d84so7fyu]: Consuming argument `173`
+[2512월2022 01:36:33.828] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [1mz5d84so7fyu]: Finished looking at arguments. Finalizing command.
+[2512월2022 01:37:05.961] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [1gjxqcjrid8gv]: started parsing
+[2512월2022 01:37:05.961] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [1gjxqcjrid8gv]: Consuming argument ``
+[2512월2022 01:37:06.225] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [05qxztxcr03pc]: started parsing
+[2512월2022 01:37:06.225] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [05qxztxcr03pc]: Consuming argument `1`
+[2512월2022 01:37:06.225] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [05qxztxcr03pc]: Finished looking at arguments. Finalizing command.
+[2512월2022 01:37:06.455] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [09mz55mhltn0y]: started parsing
+[2512월2022 01:37:06.455] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [09mz55mhltn0y]: Consuming argument `17`
+[2512월2022 01:37:06.455] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [09mz55mhltn0y]: Finished looking at arguments. Finalizing command.
+[2512월2022 01:37:06.627] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [1hx68yksgd5pr]: started parsing
+[2512월2022 01:37:06.627] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [1hx68yksgd5pr]: Consuming argument `173`
+[2512월2022 01:37:06.628] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [1hx68yksgd5pr]: Finished looking at arguments. Finalizing command.
+[2512월2022 01:37:06.790] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [1cf57xpfxcca2]: started parsing
+[2512월2022 01:37:06.790] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [1cf57xpfxcca2]: Consuming argument `173`
+[2512월2022 01:37:06.791] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [1cf57xpfxcca2]: Finished looking at arguments. Finalizing command.
+[2512월2022 01:39:20.158] [Server thread/DEBUG] [net.minecraftforge.fml.FMLWorldPersistenceHook/WP]: Gathering id map for writing to world save world
+[2512월2022 01:39:20.160] [Server thread/DEBUG] [net.minecraftforge.fml.FMLWorldPersistenceHook/WP]: ID Map collection complete world
+[2512월2022 01:40:26.008] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [0tvx4pstya80h]: started parsing
+[2512월2022 01:40:26.009] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [0tvx4pstya80h]: Consuming argument ``
+[2512월2022 01:40:26.692] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [1qo9xokbsjumn]: started parsing
+[2512월2022 01:40:26.692] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [1qo9xokbsjumn]: Consuming argument `1`
+[2512월2022 01:40:26.692] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [1qo9xokbsjumn]: Finished looking at arguments. Finalizing command.
+[2512월2022 01:40:26.942] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [1hybf6oisfpkq]: started parsing
+[2512월2022 01:40:26.942] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [1hybf6oisfpkq]: Consuming argument `17`
+[2512월2022 01:40:26.943] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [1hybf6oisfpkq]: Finished looking at arguments. Finalizing command.
+[2512월2022 01:40:27.109] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [0m0b8ya7nejno]: started parsing
+[2512월2022 01:40:27.109] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [0m0b8ya7nejno]: Consuming argument `173`
+[2512월2022 01:40:27.110] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [0m0b8ya7nejno]: Finished looking at arguments. Finalizing command.
+[2512월2022 01:40:27.239] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [02s75c8zfm48p]: started parsing
+[2512월2022 01:40:27.239] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [02s75c8zfm48p]: Consuming argument `173`
+[2512월2022 01:40:27.239] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [02s75c8zfm48p]: Finished looking at arguments. Finalizing command.
+[2512월2022 01:44:20.144] [Server thread/DEBUG] [net.minecraftforge.fml.FMLWorldPersistenceHook/WP]: Gathering id map for writing to world save world
+[2512월2022 01:44:20.146] [Server thread/DEBUG] [net.minecraftforge.fml.FMLWorldPersistenceHook/WP]: ID Map collection complete world
+[2512월2022 01:49:20.145] [Server thread/DEBUG] [net.minecraftforge.fml.FMLWorldPersistenceHook/WP]: Gathering id map for writing to world save world
+[2512월2022 01:49:20.147] [Server thread/DEBUG] [net.minecraftforge.fml.FMLWorldPersistenceHook/WP]: ID Map collection complete world
+[2512월2022 01:54:20.147] [Server thread/DEBUG] [net.minecraftforge.fml.FMLWorldPersistenceHook/WP]: Gathering id map for writing to world save world
+[2512월2022 01:54:20.149] [Server thread/DEBUG] [net.minecraftforge.fml.FMLWorldPersistenceHook/WP]: ID Map collection complete world
+[2512월2022 01:59:20.141] [Server thread/DEBUG] [net.minecraftforge.fml.FMLWorldPersistenceHook/WP]: Gathering id map for writing to world save world
+[2512월2022 01:59:20.143] [Server thread/DEBUG] [net.minecraftforge.fml.FMLWorldPersistenceHook/WP]: ID Map collection complete world
+[2512월2022 02:02:17.880] [Netty Server IO #4/DEBUG] [net.minecraftforge.fml.network.FMLHandshakeHandler/FMLHANDSHAKE]: Starting new modded network connection. Found 20 messages to dispatch.
+[2512월2022 02:02:18.401] [User Authenticator #2/INFO] [net.minecraft.network.login.ServerLoginNetHandler/]: UUID of player fairy_Vv is 26c1cca6-e050-4394-8f46-b1a7f5b042e8
+[2512월2022 02:02:18.450] [Server thread/DEBUG] [net.minecraftforge.fml.network.FMLHandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'net.minecraftforge.fml.network.FMLHandshakeMessages$S2CModList' to 'fml:handshake' sequence 0
+[2512월2022 02:02:18.470] [Netty Server IO #4/DEBUG] [net.minecraftforge.fml.network.FMLLoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 0
+[2512월2022 02:02:18.470] [Netty Server IO #4/DEBUG] [net.minecraftforge.fml.network.FMLHandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 0 of type net.minecraftforge.fml.network.FMLHandshakeMessages$C2SModListReply
+[2512월2022 02:02:18.470] [Netty Server IO #4/DEBUG] [net.minecraftforge.fml.network.FMLHandshakeHandler/FMLHANDSHAKE]: Received client connection with modlist [minecraft, forge, worldedit, joshxmas]
+[2512월2022 02:02:18.470] [Netty Server IO #4/DEBUG] [net.minecraftforge.fml.network.NetworkRegistry/NETREGISTRY]: Channel 'worldedit:cui' : Version test of '1' from client : ACCEPTED
+[2512월2022 02:02:18.470] [Netty Server IO #4/DEBUG] [net.minecraftforge.fml.network.NetworkRegistry/NETREGISTRY]: Channel 'fml:loginwrapper' : Version test of 'FML2' from client : ACCEPTED
+[2512월2022 02:02:18.470] [Netty Server IO #4/DEBUG] [net.minecraftforge.fml.network.NetworkRegistry/NETREGISTRY]: Channel 'fml:handshake' : Version test of 'FML2' from client : ACCEPTED
+[2512월2022 02:02:18.470] [Netty Server IO #4/DEBUG] [net.minecraftforge.fml.network.NetworkRegistry/NETREGISTRY]: Channel 'worldedit:internal' : Version test of '1' from client : ACCEPTED
+[2512월2022 02:02:18.470] [Netty Server IO #4/DEBUG] [net.minecraftforge.fml.network.NetworkRegistry/NETREGISTRY]: Channel 'minecraft:unregister' : Version test of 'FML2' from client : ACCEPTED
+[2512월2022 02:02:18.470] [Netty Server IO #4/DEBUG] [net.minecraftforge.fml.network.NetworkRegistry/NETREGISTRY]: Channel 'fml:play' : Version test of 'FML2' from client : ACCEPTED
+[2512월2022 02:02:18.470] [Netty Server IO #4/DEBUG] [net.minecraftforge.fml.network.NetworkRegistry/NETREGISTRY]: Channel 'minecraft:register' : Version test of 'FML2' from client : ACCEPTED
+[2512월2022 02:02:18.470] [Netty Server IO #4/DEBUG] [net.minecraftforge.fml.network.NetworkRegistry/NETREGISTRY]: Accepting channel list from client
+[2512월2022 02:02:18.470] [Netty Server IO #4/DEBUG] [net.minecraftforge.fml.network.FMLHandshakeHandler/FMLHANDSHAKE]: Accepted client connection mod list
+[2512월2022 02:02:18.499] [Server thread/DEBUG] [net.minecraftforge.fml.network.FMLHandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry minecraft:recipe_serializer' to 'fml:handshake' sequence 1
+[2512월2022 02:02:18.507] [Netty Server IO #4/DEBUG] [net.minecraftforge.fml.network.FMLLoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 1
+[2512월2022 02:02:18.507] [Netty Server IO #4/DEBUG] [net.minecraftforge.fml.network.FMLHandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 1 of type net.minecraftforge.fml.network.FMLHandshakeMessages$C2SAcknowledge
+[2512월2022 02:02:18.507] [Netty Server IO #4/DEBUG] [net.minecraftforge.fml.network.FMLHandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[2512월2022 02:02:18.551] [Server thread/DEBUG] [net.minecraftforge.fml.network.FMLHandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry minecraft:sound_event' to 'fml:handshake' sequence 2
+[2512월2022 02:02:18.580] [Netty Server IO #4/DEBUG] [net.minecraftforge.fml.network.FMLLoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 2
+[2512월2022 02:02:18.580] [Netty Server IO #4/DEBUG] [net.minecraftforge.fml.network.FMLHandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 2 of type net.minecraftforge.fml.network.FMLHandshakeMessages$C2SAcknowledge
+[2512월2022 02:02:18.580] [Netty Server IO #4/DEBUG] [net.minecraftforge.fml.network.FMLHandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[2512월2022 02:02:18.603] [Server thread/DEBUG] [net.minecraftforge.fml.network.FMLHandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry minecraft:particle_type' to 'fml:handshake' sequence 3
+[2512월2022 02:02:18.610] [Netty Server IO #4/DEBUG] [net.minecraftforge.fml.network.FMLLoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 3
+[2512월2022 02:02:18.610] [Netty Server IO #4/DEBUG] [net.minecraftforge.fml.network.FMLHandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 3 of type net.minecraftforge.fml.network.FMLHandshakeMessages$C2SAcknowledge
+[2512월2022 02:02:18.610] [Netty Server IO #4/DEBUG] [net.minecraftforge.fml.network.FMLHandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[2512월2022 02:02:18.654] [Server thread/DEBUG] [net.minecraftforge.fml.network.FMLHandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry minecraft:villager_profession' to 'fml:handshake' sequence 4
+[2512월2022 02:02:18.662] [Netty Server IO #4/DEBUG] [net.minecraftforge.fml.network.FMLLoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 4
+[2512월2022 02:02:18.663] [Netty Server IO #4/DEBUG] [net.minecraftforge.fml.network.FMLHandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 4 of type net.minecraftforge.fml.network.FMLHandshakeMessages$C2SAcknowledge
+[2512월2022 02:02:18.663] [Netty Server IO #4/DEBUG] [net.minecraftforge.fml.network.FMLHandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[2512월2022 02:02:18.701] [Server thread/DEBUG] [net.minecraftforge.fml.network.FMLHandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry minecraft:item' to 'fml:handshake' sequence 5
+[2512월2022 02:02:18.714] [Netty Server IO #4/DEBUG] [net.minecraftforge.fml.network.FMLLoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 5
+[2512월2022 02:02:18.715] [Netty Server IO #4/DEBUG] [net.minecraftforge.fml.network.FMLHandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 5 of type net.minecraftforge.fml.network.FMLHandshakeMessages$C2SAcknowledge
+[2512월2022 02:02:18.715] [Netty Server IO #4/DEBUG] [net.minecraftforge.fml.network.FMLHandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[2512월2022 02:02:18.752] [Server thread/DEBUG] [net.minecraftforge.fml.network.FMLHandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry minecraft:potion' to 'fml:handshake' sequence 6
+[2512월2022 02:02:18.760] [Netty Server IO #4/DEBUG] [net.minecraftforge.fml.network.FMLLoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 6
+[2512월2022 02:02:18.760] [Netty Server IO #4/DEBUG] [net.minecraftforge.fml.network.FMLHandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 6 of type net.minecraftforge.fml.network.FMLHandshakeMessages$C2SAcknowledge
+[2512월2022 02:02:18.760] [Netty Server IO #4/DEBUG] [net.minecraftforge.fml.network.FMLHandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[2512월2022 02:02:18.799] [Server thread/DEBUG] [net.minecraftforge.fml.network.FMLHandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry minecraft:block_entity_type' to 'fml:handshake' sequence 7
+[2512월2022 02:02:18.807] [Netty Server IO #4/DEBUG] [net.minecraftforge.fml.network.FMLLoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 7
+[2512월2022 02:02:18.807] [Netty Server IO #4/DEBUG] [net.minecraftforge.fml.network.FMLHandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 7 of type net.minecraftforge.fml.network.FMLHandshakeMessages$C2SAcknowledge
+[2512월2022 02:02:18.807] [Netty Server IO #4/DEBUG] [net.minecraftforge.fml.network.FMLHandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[2512월2022 02:02:18.852] [Server thread/DEBUG] [net.minecraftforge.fml.network.FMLHandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry minecraft:worldgen/feature' to 'fml:handshake' sequence 8
+[2512월2022 02:02:18.860] [Netty Server IO #4/DEBUG] [net.minecraftforge.fml.network.FMLLoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 8
+[2512월2022 02:02:18.860] [Netty Server IO #4/DEBUG] [net.minecraftforge.fml.network.FMLHandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 8 of type net.minecraftforge.fml.network.FMLHandshakeMessages$C2SAcknowledge
+[2512월2022 02:02:18.860] [Netty Server IO #4/DEBUG] [net.minecraftforge.fml.network.FMLHandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[2512월2022 02:02:18.898] [Server thread/DEBUG] [net.minecraftforge.fml.network.FMLHandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry minecraft:block' to 'fml:handshake' sequence 9
+[2512월2022 02:02:18.909] [Netty Server IO #4/DEBUG] [net.minecraftforge.fml.network.FMLLoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 9
+[2512월2022 02:02:18.909] [Netty Server IO #4/DEBUG] [net.minecraftforge.fml.network.FMLHandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 9 of type net.minecraftforge.fml.network.FMLHandshakeMessages$C2SAcknowledge
+[2512월2022 02:02:18.909] [Netty Server IO #4/DEBUG] [net.minecraftforge.fml.network.FMLHandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[2512월2022 02:02:18.949] [Server thread/DEBUG] [net.minecraftforge.fml.network.FMLHandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry minecraft:data_serializers' to 'fml:handshake' sequence 10
+[2512월2022 02:02:18.956] [Netty Server IO #4/DEBUG] [net.minecraftforge.fml.network.FMLLoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 10
+[2512월2022 02:02:18.956] [Netty Server IO #4/DEBUG] [net.minecraftforge.fml.network.FMLHandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 10 of type net.minecraftforge.fml.network.FMLHandshakeMessages$C2SAcknowledge
+[2512월2022 02:02:18.956] [Netty Server IO #4/DEBUG] [net.minecraftforge.fml.network.FMLHandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[2512월2022 02:02:18.999] [Server thread/DEBUG] [net.minecraftforge.fml.network.FMLHandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry minecraft:mob_effect' to 'fml:handshake' sequence 11
+[2512월2022 02:02:19.005] [Netty Server IO #4/DEBUG] [net.minecraftforge.fml.network.FMLLoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 11
+[2512월2022 02:02:19.006] [Netty Server IO #4/DEBUG] [net.minecraftforge.fml.network.FMLHandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 11 of type net.minecraftforge.fml.network.FMLHandshakeMessages$C2SAcknowledge
+[2512월2022 02:02:19.006] [Netty Server IO #4/DEBUG] [net.minecraftforge.fml.network.FMLHandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[2512월2022 02:02:19.047] [Server thread/DEBUG] [net.minecraftforge.fml.network.FMLHandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry minecraft:stat_type' to 'fml:handshake' sequence 12
+[2512월2022 02:02:19.055] [Netty Server IO #4/DEBUG] [net.minecraftforge.fml.network.FMLLoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 12
+[2512월2022 02:02:19.055] [Netty Server IO #4/DEBUG] [net.minecraftforge.fml.network.FMLHandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 12 of type net.minecraftforge.fml.network.FMLHandshakeMessages$C2SAcknowledge
+[2512월2022 02:02:19.055] [Netty Server IO #4/DEBUG] [net.minecraftforge.fml.network.FMLHandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[2512월2022 02:02:19.106] [Server thread/DEBUG] [net.minecraftforge.fml.network.FMLHandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry minecraft:menu' to 'fml:handshake' sequence 13
+[2512월2022 02:02:19.114] [Netty Server IO #4/DEBUG] [net.minecraftforge.fml.network.FMLLoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 13
+[2512월2022 02:02:19.114] [Netty Server IO #4/DEBUG] [net.minecraftforge.fml.network.FMLHandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 13 of type net.minecraftforge.fml.network.FMLHandshakeMessages$C2SAcknowledge
+[2512월2022 02:02:19.114] [Netty Server IO #4/DEBUG] [net.minecraftforge.fml.network.FMLHandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[2512월2022 02:02:19.148] [Server thread/DEBUG] [net.minecraftforge.fml.network.FMLHandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry minecraft:enchantment' to 'fml:handshake' sequence 14
+[2512월2022 02:02:19.155] [Netty Server IO #4/DEBUG] [net.minecraftforge.fml.network.FMLLoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 14
+[2512월2022 02:02:19.155] [Netty Server IO #4/DEBUG] [net.minecraftforge.fml.network.FMLHandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 14 of type net.minecraftforge.fml.network.FMLHandshakeMessages$C2SAcknowledge
+[2512월2022 02:02:19.155] [Netty Server IO #4/DEBUG] [net.minecraftforge.fml.network.FMLHandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[2512월2022 02:02:19.198] [Server thread/DEBUG] [net.minecraftforge.fml.network.FMLHandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry minecraft:motive' to 'fml:handshake' sequence 15
+[2512월2022 02:02:19.205] [Netty Server IO #4/DEBUG] [net.minecraftforge.fml.network.FMLLoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 15
+[2512월2022 02:02:19.205] [Netty Server IO #4/DEBUG] [net.minecraftforge.fml.network.FMLHandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 15 of type net.minecraftforge.fml.network.FMLHandshakeMessages$C2SAcknowledge
+[2512월2022 02:02:19.205] [Netty Server IO #4/DEBUG] [net.minecraftforge.fml.network.FMLHandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[2512월2022 02:02:19.248] [Server thread/DEBUG] [net.minecraftforge.fml.network.FMLHandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry minecraft:worldgen/biome' to 'fml:handshake' sequence 16
+[2512월2022 02:02:19.255] [Netty Server IO #4/DEBUG] [net.minecraftforge.fml.network.FMLLoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 16
+[2512월2022 02:02:19.255] [Netty Server IO #4/DEBUG] [net.minecraftforge.fml.network.FMLHandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 16 of type net.minecraftforge.fml.network.FMLHandshakeMessages$C2SAcknowledge
+[2512월2022 02:02:19.255] [Netty Server IO #4/DEBUG] [net.minecraftforge.fml.network.FMLHandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[2512월2022 02:02:19.297] [Server thread/DEBUG] [net.minecraftforge.fml.network.FMLHandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry minecraft:fluid' to 'fml:handshake' sequence 17
+[2512월2022 02:02:19.303] [Netty Server IO #4/DEBUG] [net.minecraftforge.fml.network.FMLLoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 17
+[2512월2022 02:02:19.303] [Netty Server IO #4/DEBUG] [net.minecraftforge.fml.network.FMLHandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 17 of type net.minecraftforge.fml.network.FMLHandshakeMessages$C2SAcknowledge
+[2512월2022 02:02:19.303] [Netty Server IO #4/DEBUG] [net.minecraftforge.fml.network.FMLHandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[2512월2022 02:02:19.349] [Server thread/DEBUG] [net.minecraftforge.fml.network.FMLHandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry minecraft:entity_type' to 'fml:handshake' sequence 18
+[2512월2022 02:02:19.399] [Server thread/DEBUG] [net.minecraftforge.fml.network.FMLHandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Config forge-server.toml' to 'fml:handshake' sequence 19
+[2512월2022 02:02:19.625] [Netty Server IO #4/DEBUG] [net.minecraftforge.fml.network.FMLLoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 18
+[2512월2022 02:02:19.625] [Netty Server IO #4/DEBUG] [net.minecraftforge.fml.network.FMLHandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 18 of type net.minecraftforge.fml.network.FMLHandshakeMessages$C2SAcknowledge
+[2512월2022 02:02:19.625] [Netty Server IO #4/DEBUG] [net.minecraftforge.fml.network.FMLHandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[2512월2022 02:02:19.626] [Netty Server IO #4/DEBUG] [net.minecraftforge.fml.network.FMLLoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 19
+[2512월2022 02:02:19.626] [Netty Server IO #4/DEBUG] [net.minecraftforge.fml.network.FMLHandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 19 of type net.minecraftforge.fml.network.FMLHandshakeMessages$C2SAcknowledge
+[2512월2022 02:02:19.626] [Netty Server IO #4/DEBUG] [net.minecraftforge.fml.network.FMLHandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[2512월2022 02:02:19.648] [Server thread/DEBUG] [net.minecraftforge.fml.network.FMLHandshakeHandler/FMLHANDSHAKE]: Handshake complete!
+[2512월2022 02:02:19.715] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.advancements.PlayerAdvancements@4a925212
+[2512월2022 02:02:19.725] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: fairy_Vv[/222.98.108.78:61320] logged in with entity id 810 at (1773.614906252653, 67.4229304360186, -294.6705088957478)
+[2512월2022 02:02:19.734] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: fairy_Vv joined the game
+[2512월2022 02:04:20.157] [Server thread/DEBUG] [net.minecraftforge.fml.FMLWorldPersistenceHook/WP]: Gathering id map for writing to world save world
+[2512월2022 02:04:20.159] [Server thread/DEBUG] [net.minecraftforge.fml.FMLWorldPersistenceHook/WP]: ID Map collection complete world
+[2512월2022 02:09:20.154] [Server thread/DEBUG] [net.minecraftforge.fml.FMLWorldPersistenceHook/WP]: Gathering id map for writing to world save world
+[2512월2022 02:09:20.157] [Server thread/DEBUG] [net.minecraftforge.fml.FMLWorldPersistenceHook/WP]: ID Map collection complete world
+[2512월2022 02:13:19.199] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: ssuee1217 lost connection: Disconnected
+[2512월2022 02:13:19.200] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: ssuee1217 left the game
+[2512월2022 02:13:28.348] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: fairy_Vv lost connection: Disconnected
+[2512월2022 02:13:28.348] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: fairy_Vv left the game
+[2512월2022 02:14:20.139] [Server thread/DEBUG] [net.minecraftforge.fml.FMLWorldPersistenceHook/WP]: Gathering id map for writing to world save world
+[2512월2022 02:14:20.141] [Server thread/DEBUG] [net.minecraftforge.fml.FMLWorldPersistenceHook/WP]: ID Map collection complete world
+[2512월2022 02:19:20.121] [Server thread/DEBUG] [net.minecraftforge.fml.FMLWorldPersistenceHook/WP]: Gathering id map for writing to world save world
+[2512월2022 02:19:20.123] [Server thread/DEBUG] [net.minecraftforge.fml.FMLWorldPersistenceHook/WP]: ID Map collection complete world
+[2512월2022 02:24:20.119] [Server thread/DEBUG] [net.minecraftforge.fml.FMLWorldPersistenceHook/WP]: Gathering id map for writing to world save world
+[2512월2022 02:24:20.122] [Server thread/DEBUG] [net.minecraftforge.fml.FMLWorldPersistenceHook/WP]: ID Map collection complete world
+[2512월2022 02:29:20.118] [Server thread/DEBUG] [net.minecraftforge.fml.FMLWorldPersistenceHook/WP]: Gathering id map for writing to world save world
+[2512월2022 02:29:20.121] [Server thread/DEBUG] [net.minecraftforge.fml.FMLWorldPersistenceHook/WP]: ID Map collection complete world
+[2512월2022 02:31:55.293] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Stopping the server
+[2512월2022 02:31:55.343] [Server thread/INFO] [com.sk89q.worldedit.extension.platform.PlatformManager/]: Unregistering com.sk89q.worldedit.forge.ForgePlatform from WorldEdit
+[2512월2022 02:31:55.349] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[2512월2022 02:31:55.350] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[2512월2022 02:31:55.352] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[2512월2022 02:31:55.354] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[2512월2022 02:31:55.497] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[2512월2022 02:31:55.497] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[2512월2022 02:31:55.501] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[2512월2022 02:31:55.502] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[2512월2022 02:31:55.505] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[2512월2022 02:31:55.506] [Server thread/DEBUG] [net.minecraftforge.fml.FMLWorldPersistenceHook/WP]: Gathering id map for writing to world save world
+[2512월2022 02:31:55.508] [Server thread/DEBUG] [net.minecraftforge.fml.FMLWorldPersistenceHook/WP]: ID Map collection complete world
+[2512월2022 02:31:55.526] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[2512월2022 02:31:55.530] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[2512월2022 02:31:55.531] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[2512월2022 02:31:55.534] [Server thread/DEBUG] [net.minecraftforge.fml.loading.FileUtils/CORE]: Found existing serverconfig directory : .\world\serverconfig
+[2512월2022 02:31:55.534] [Server thread/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Unloading configs type SERVER
